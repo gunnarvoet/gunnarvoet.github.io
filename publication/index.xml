@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Gunnar Voet</title>
+    <link>https://gunnarvoet.github.io/publication/index.xml</link>
+    <description>Recent content in Publications on Gunnar Voet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Gunnar Voet</copyright>
+    <lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Warming and Weakening of the flow through Samoan Passage</title>
+      <link>https://gunnarvoet.github.io/publication/SamoaWarmingWeakening/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunnarvoet.github.io/publication/SamoaWarmingWeakening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pathways, Volume Transport and Mixing of Abyssal Water in the Samoan Passage</title>
+      <link>https://gunnarvoet.github.io/publication/SamoaPathwaysTransportMixing/</link>
+      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunnarvoet.github.io/publication/SamoaPathwaysTransportMixing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Turbulent mixing and hydraulic control of abyssal water in the Samoan Passage</title>
+      <link>https://gunnarvoet.github.io/publication/SamoaMixingGRL/</link>
+      <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunnarvoet.github.io/publication/SamoaMixingGRL/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The mid-depth circulation of the Nordic Seas derived from profiling float observations </title>
+      <link>https://gunnarvoet.github.io/publication/NordicSeasCirculation/</link>
+      <pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunnarvoet.github.io/publication/NordicSeasCirculation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entrainment in the Denmark Strait overflow plume by meso-scale eddies</title>
+      <link>https://gunnarvoet.github.io/publication/DenmarkStraitEntrainment/</link>
+      <pubDate>Mon, 01 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunnarvoet.github.io/publication/DenmarkStraitEntrainment/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
