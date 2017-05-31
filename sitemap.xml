@@ -4,6 +4,14 @@
     
     
     <url>
+      <loc>https://gunnarvoet.github.io/post/research-cruise-rr1708/</loc>
+      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://gunnarvoet.github.io/project/hyprsp/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -12,7 +20,7 @@
     
     
     <url>
-      <loc>https://gunnarvoet.github.io/publication/SamoaWarmingWeakening/</loc>
+      <loc>https://gunnarvoet.github.io/publication/samoawarmingweakening/</loc>
       <lastmod>2016-08-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +76,7 @@
     
     
     <url>
-      <loc>https://gunnarvoet.github.io/publication/SamoaPathwaysTransportMixing/</loc>
+      <loc>https://gunnarvoet.github.io/publication/samoapathwaystransportmixing/</loc>
       <lastmod>2015-02-09T00:00:00+00:00</lastmod>
     </url>
     
@@ -84,7 +92,7 @@
     
     
     <url>
-      <loc>https://gunnarvoet.github.io/publication/SamoaMixingGRL/</loc>
+      <loc>https://gunnarvoet.github.io/publication/samoamixinggrl/</loc>
       <lastmod>2013-09-03T00:00:00+00:00</lastmod>
     </url>
     
@@ -92,7 +100,7 @@
     
     
     <url>
-      <loc>https://gunnarvoet.github.io/project/SamoanPassage/</loc>
+      <loc>https://gunnarvoet.github.io/project/samoanpassage/</loc>
       <lastmod>2012-03-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -100,7 +108,7 @@
     
     
     <url>
-      <loc>https://gunnarvoet.github.io/publication/NordicSeasCirculation/</loc>
+      <loc>https://gunnarvoet.github.io/publication/nordicseascirculation/</loc>
       <lastmod>2010-07-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -108,8 +116,16 @@
     
     
     <url>
-      <loc>https://gunnarvoet.github.io/publication/DenmarkStraitEntrainment/</loc>
+      <loc>https://gunnarvoet.github.io/publication/denmarkstraitentrainment/</loc>
       <lastmod>2010-03-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://gunnarvoet.github.io/categories/</loc>
+      <priority>0</priority>
     </url>
     
   
@@ -124,12 +140,9 @@
   
     
     
-  
-    
-    
     <url>
       <loc>https://gunnarvoet.github.io/tags/photos/</loc>
-      <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -138,7 +151,7 @@
     
     <url>
       <loc>https://gunnarvoet.github.io/post/</loc>
-      <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -148,6 +161,14 @@
     <url>
       <loc>https://gunnarvoet.github.io/project/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://gunnarvoet.github.io/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -165,7 +186,7 @@
     
     <url>
       <loc>https://gunnarvoet.github.io/tags/researchcruise/</loc>
-      <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -174,6 +195,7 @@
     
     <url>
       <loc>https://gunnarvoet.github.io/tags/</loc>
+      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
