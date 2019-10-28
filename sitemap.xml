@@ -1,212 +1,269 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/post/research-cruise-rr1708/</loc>
-      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/gunnar/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/project/hyprsp/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/publication_types/2/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/publication/samoawarmingweakening/</loc>
-      <lastmod>2016-08-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/post/research-cruise-rr1607/</loc>
-      <lastmod>2016-06-25T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/glenn-carter/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/talk/ocean-sciences-2016/</loc>
-      <lastmod>2016-02-22T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/post/research-cruise-arctic-2015/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/james-girton/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/project/fleat/</loc>
-      <lastmod>2015-07-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/jesse-cusack/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/talk/iugg-2015/</loc>
-      <lastmod>2015-06-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/kelly-pearson-potts/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/post/research-cruise-ttide-2015/</loc>
-      <lastmod>2015-03-10T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/larry-pratt/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/publication/samoapathwaystransportmixing/</loc>
-      <lastmod>2015-02-09T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/matthew-alford/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/talk/ocean-sciences-2014/</loc>
-      <lastmod>2014-02-25T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/publication/journal-article/cusack-etal-2019/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/publication/samoamixinggrl/</loc>
-      <lastmod>2013-09-03T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/publication_types/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/project/samoanpassage/</loc>
-      <lastmod>2012-03-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/publication/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/publication/nordicseascirculation/</loc>
-      <lastmod>2010-07-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/shuwen-tan/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/publication/denmarkstraitentrainment/</loc>
-      <lastmod>2010-03-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/talk/iugg-2019/</loc>
+    <lastmod>2019-07-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/talk/</loc>
+    <lastmod>2019-07-09T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/</loc>
-      <lastmod>2017-01-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/project/niskine/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/tags/photos/</loc>
-      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/tags/niskine/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/post/</loc>
-      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/project/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/project/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/tags/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/tags/blt/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/publication/</loc>
-      <lastmod>2016-08-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/project/blt/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/tags/researchcruise/</loc>
-      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/talk/gordon-conference-mixing-2018/</loc>
+    <lastmod>2018-06-05T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/tags/</loc>
-      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/tags/piston/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-      <loc>https://gunnarvoet.github.io/talk/</loc>
-      <lastmod>2016-02-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://gunnarvoet.github.io/project/piston/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/tags/fleat/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/post/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/post/research-cruise-rr1708/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/tags/research-cruise/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/talk/liege-2017/</loc>
+    <lastmod>2017-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/project/hyprsp/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/tags/samoan-passage/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/jody-klymak/</loc>
+    <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/john-mickett/</loc>
+    <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-warming-weakening/</loc>
+    <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/post/research-cruise-rr1607/</loc>
+    <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/talk/ocean-sciences-2016/</loc>
+    <lastmod>2016-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/tags/arctic/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/post/research-cruise-arctic-2015/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/project/fleat/</loc>
+    <lastmod>2015-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/talk/iugg-2015/</loc>
+    <lastmod>2015-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/post/research-cruise-ttide-2015/</loc>
+    <lastmod>2015-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/tags/ttide/</loc>
+    <lastmod>2015-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-pathways-mixing/</loc>
+    <lastmod>2015-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/talk/ocean-sciences-2014/</loc>
+    <lastmod>2014-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-mixing/</loc>
+    <lastmod>2013-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/project/samoan-passage/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/detlef-quadfasel/</loc>
+    <lastmod>2010-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/henrik-s%C3%B8iland/</loc>
+    <lastmod>2010-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/authors/kjell-arne-mork/</loc>
+    <lastmod>2010-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/publication/journal-article/nordic-seas-circulation/</loc>
+    <lastmod>2010-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/publication/journal-article/denmark-strait-entrainment/</loc>
+    <lastmod>2010-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunnarvoet.github.io/categories/</loc>
+  </url>
   
 </urlset>

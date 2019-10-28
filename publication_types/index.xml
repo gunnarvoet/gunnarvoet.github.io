@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types on Gunnar Voet</title>
+    <title>Publication_types | Gunnar Voet</title>
     <link>https://gunnarvoet.github.io/publication_types/</link>
-    <description>Recent content in Publication_types on Gunnar Voet</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017 Gunnar Voet</copyright>
-    <atom:link href="/publication_types/" rel="self" type="application/rss+xml" />
+      <atom:link href="https://gunnarvoet.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Gunnar Voet</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gunnarvoet.github.io/img/icon-192.png</url>
+      <title>Publication_types</title>
+      <link>https://gunnarvoet.github.io/publication_types/</link>
+    </image>
+    
+    <item>
+      <title>2</title>
+      <link>https://gunnarvoet.github.io/publication_types/2/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://gunnarvoet.github.io/publication_types/2/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
