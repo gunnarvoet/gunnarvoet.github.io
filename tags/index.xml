@@ -5,12 +5,28 @@
     <link>https://gunnarvoet.github.io/tags/</link>
       <atom:link href="https://gunnarvoet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Gunnar Voet</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Gunnar Voet</copyright><lastBuildDate>Tue, 29 Oct 2019 22:07:26 -0700</lastBuildDate>
     <image>
       <url>https://gunnarvoet.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://gunnarvoet.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>outreach</title>
+      <link>https://gunnarvoet.github.io/tags/outreach/</link>
+      <pubDate>Tue, 29 Oct 2019 22:07:26 -0700</pubDate>
+      <guid>https://gunnarvoet.github.io/tags/outreach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>samoan-passage</title>
+      <link>https://gunnarvoet.github.io/tags/samoan-passage/</link>
+      <pubDate>Tue, 29 Oct 2019 22:07:26 -0700</pubDate>
+      <guid>https://gunnarvoet.github.io/tags/samoan-passage/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>niskine</title>
@@ -49,14 +65,6 @@
       <link>https://gunnarvoet.github.io/tags/research-cruise/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       <guid>https://gunnarvoet.github.io/tags/research-cruise/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>samoan-passage</title>
-      <link>https://gunnarvoet.github.io/tags/samoan-passage/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/samoan-passage/</guid>
       <description></description>
     </item>
     
