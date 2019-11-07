@@ -5,12 +5,20 @@
     <link>https://gunnarvoet.github.io/tags/</link>
       <atom:link href="https://gunnarvoet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Gunnar Voet</copyright><lastBuildDate>Tue, 29 Oct 2019 22:07:26 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Gunnar Voet</copyright><lastBuildDate>Wed, 06 Nov 2019 20:23:56 -0800</lastBuildDate>
     <image>
       <url>https://gunnarvoet.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://gunnarvoet.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>blt</title>
+      <link>https://gunnarvoet.github.io/tags/blt/</link>
+      <pubDate>Wed, 06 Nov 2019 20:23:56 -0800</pubDate>
+      <guid>https://gunnarvoet.github.io/tags/blt/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>outreach</title>
@@ -41,14 +49,6 @@
       <link>https://gunnarvoet.github.io/tags/research-cruise/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://gunnarvoet.github.io/tags/research-cruise/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blt</title>
-      <link>https://gunnarvoet.github.io/tags/blt/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/blt/</guid>
       <description></description>
     </item>
     
