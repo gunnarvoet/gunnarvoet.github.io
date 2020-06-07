@@ -5,100 +5,12 @@
     <link>https://gunnarvoet.github.io/tags/</link>
       <atom:link href="https://gunnarvoet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Gunnar Voet</copyright><lastBuildDate>Wed, 06 Nov 2019 20:23:56 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gunnar Voet</copyright><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://gunnarvoet.github.io/img/icon-192.png</url>
+      <url>https://gunnarvoet.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
       <link>https://gunnarvoet.github.io/tags/</link>
     </image>
-    
-    <item>
-      <title>blt</title>
-      <link>https://gunnarvoet.github.io/tags/blt/</link>
-      <pubDate>Wed, 06 Nov 2019 20:23:56 -0800</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/blt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>outreach</title>
-      <link>https://gunnarvoet.github.io/tags/outreach/</link>
-      <pubDate>Tue, 29 Oct 2019 22:07:26 -0700</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/outreach/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>samoan-passage</title>
-      <link>https://gunnarvoet.github.io/tags/samoan-passage/</link>
-      <pubDate>Tue, 29 Oct 2019 22:07:26 -0700</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/samoan-passage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>niskine</title>
-      <link>https://gunnarvoet.github.io/tags/niskine/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/niskine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>research-cruise</title>
-      <link>https://gunnarvoet.github.io/tags/research-cruise/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/research-cruise/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>piston</title>
-      <link>https://gunnarvoet.github.io/tags/piston/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/piston/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fleat</title>
-      <link>https://gunnarvoet.github.io/tags/fleat/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/fleat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>arctic</title>
-      <link>https://gunnarvoet.github.io/tags/arctic/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/arctic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ttide</title>
-      <link>https://gunnarvoet.github.io/tags/ttide/</link>
-      <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/ttide/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nordic-seas</title>
-      <link>https://gunnarvoet.github.io/tags/nordic-seas/</link>
-      <pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/nordic-seas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>denmark-strait</title>
-      <link>https://gunnarvoet.github.io/tags/denmark-strait/</link>
-      <pubDate>Mon, 01 Mar 2010 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/tags/denmark-strait/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

@@ -5,9 +5,9 @@
     <link>https://gunnarvoet.github.io/tags/blt/</link>
       <atom:link href="https://gunnarvoet.github.io/tags/blt/index.xml" rel="self" type="application/rss+xml" />
     <description>blt</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Gunnar Voet</copyright><lastBuildDate>Wed, 06 Nov 2019 20:23:56 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gunnar Voet</copyright><lastBuildDate>Wed, 06 Nov 2019 20:23:56 -0800</lastBuildDate>
     <image>
-      <url>https://gunnarvoet.github.io/img/icon-192.png</url>
+      <url>https://gunnarvoet.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>blt</title>
       <link>https://gunnarvoet.github.io/tags/blt/</link>
     </image>
@@ -17,11 +17,12 @@
       <link>https://gunnarvoet.github.io/post/blt-pilot-recovery/</link>
       <pubDate>Wed, 06 Nov 2019 20:23:56 -0800</pubDate>
       <guid>https://gunnarvoet.github.io/post/blt-pilot-recovery/</guid>
-      <description>&lt;p&gt;Earlier this year in September we deployed two moorings in our backyard in the San Diego Trough. The goal of the mooring deployments was twofold: First, the BLT team wanted to practice deploying and recovering a mooring system we are borrowing from our colleague Hans van Haren from &lt;a href=&#34;https://www.nioz.nl&#34; target=&#34;_blank&#34;&gt;NIOZ&lt;/a&gt; in the Netherlands. The NIOZ mooring sports a large number of in-house-built high-precision temperature sensors with their clocks synched via an inductive pulse. Their measurements provide information on ocean stratification at high frequencies and high vertical resolution and can be used to study turbulence.  Second, we wanted to test a new design for a MAVS mooring. MAVS are acoustic travel time current meters that, paired with high precision thermistors, can be used to directly measure buoyancy fluxes. The test deployment of the MAVS will tell us whether the mooring is designed stable enough to allow for the high precision measurements needed to directly observe buoyancy fluxes. Eventually, both of these mooring types will be deployed during the main experimental phase of BLT in the Rockall Trough in summer 2020.&lt;/p&gt;
-
+      <description>&lt;p&gt;Earlier this year in September we deployed two moorings in our backyard in the San Diego Trough. The goal of the mooring deployments was twofold: First, the BLT team wanted to practice deploying and recovering a mooring system we are borrowing from our colleague Hans van Haren from 
+&lt;a href=&#34;https://www.nioz.nl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIOZ&lt;/a&gt; in the Netherlands. The NIOZ mooring sports a large number of in-house-built high-precision temperature sensors with their clocks synched via an inductive pulse. Their measurements provide information on ocean stratification at high frequencies and high vertical resolution and can be used to study turbulence.  Second, we wanted to test a new design for a MAVS mooring. MAVS are acoustic travel time current meters that, paired with high precision thermistors, can be used to directly measure buoyancy fluxes. The test deployment of the MAVS will tell us whether the mooring is designed stable enough to allow for the high precision measurements needed to directly observe buoyancy fluxes. Eventually, both of these mooring types will be deployed during the main experimental phase of BLT in the Rockall Trough in summer 2020.&lt;/p&gt;
 &lt;p&gt;Today, we successfully recovered both moorings and brought all instruments safely back on board. The weather conditions offshore were perfect for smooth mooring recoveries from the R/V Sproul, one of the smaller ships of the research fleet based in San Diego. Data analysis in the upcoming days will tell us how the moorings performed and whether adjustments are needed before the moorings will be deployed in the Rockall Trough. An exciting byproduct of the test deployment will be information on near bottom flow conditions, stratification, turbulence and buoyancy fluxes in the San Diego Trough, a region so close to Scripps Institution of Oceanography and yet not very well explored.&lt;/p&gt;
-
 &lt;p&gt;
+
+
 
 
   
@@ -36,11 +37,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-mooring-locations-in-the-san-diego-trough&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/final_mooring_locations.png&#34; data-caption=&#34;Mooring locations in the San Diego Trough.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/final_mooring_locations.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/final_mooring_locations.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -55,6 +59,8 @@
 
 
 
+
+
   
 
 
@@ -67,11 +73,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-spencer-and-jeremiah-getting-the-ctd-ready&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/ctd.jpg&#34; data-caption=&#34;Spencer and Jeremiah getting the CTD ready.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/ctd.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/ctd.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -86,6 +95,8 @@
 
 
 
+
+
   
 
 
@@ -98,11 +109,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-spencer-pinging-on-a-mooring&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/spencer-release.jpg&#34; data-caption=&#34;Spencer pinging on a mooring.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/spencer-release.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/spencer-release.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -117,6 +131,8 @@
 
 
 
+
+
   
 
 
@@ -129,11 +145,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-spencer-and-brian&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/spencer-and-brian.jpg&#34; data-caption=&#34;Spencer and Brian.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/spencer-and-brian.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/spencer-and-brian.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -148,6 +167,8 @@
 
 
 
+
+
   
 
 
@@ -160,11 +181,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-bethan-and-brian-winding-the-thermistor-chain-onto-the-tse-winch&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/thermistors.jpg&#34; data-caption=&#34;Bethan and Brian winding the thermistor chain onto the TSE winch.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/thermistors.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/thermistors.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -179,6 +203,8 @@
 
 
 
+
+
   
 
 
@@ -191,11 +217,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-the-whoi-team-inspecting-the-recovered-mavs-instruments&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/mavs.jpg&#34; data-caption=&#34;The WHOI team inspecting the recovered MAVS instruments.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/mavs.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/mavs.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -210,6 +239,8 @@
 
 
 
+
+
   
 
 
@@ -222,11 +253,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-bethan-on-the-tse-winch&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/bethan.jpg&#34; data-caption=&#34;Bethan on the TSE winch.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/bethan.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/bethan.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -241,6 +275,8 @@
 
 
 
+
+
   
 
 
@@ -253,11 +289,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-jay-preparing-dinner&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/jjay.jpg&#34; data-caption=&#34;Jay preparing dinner.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/jjay.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/jjay.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   

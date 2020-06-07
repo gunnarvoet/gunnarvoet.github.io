@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.5.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,7 +20,7 @@
   
   
 
-  <meta name="author" content="Gunnar Voet">
+  
 
   
   
@@ -44,11 +43,14 @@
 
   
   
+
+  
+  
   
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -60,8 +62,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -70,6 +72,118 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
     
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
     
 
   
@@ -91,17 +205,61 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42058702-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-42058702-3', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
+
+  
+  
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://gunnarvoet.github.io/post/blt-pilot-recovery/">
 
+  
+  
+  
   
   
   
@@ -141,8 +299,6 @@
 
 
 
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -160,17 +316,12 @@
   "datePublished": "2019-11-06T20:23:56-08:00",
   "dateModified": "2019-11-06T20:23:56-08:00",
   
-  "author": {
-    "@type": "Person",
-    "name": "Gunnar Voet"
-  },
-  
   "publisher": {
     "@type": "Organization",
     "name": "Scripps Institution of Oceanography",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://gunnarvoet.github.io/img/icon-512.png"
+      "url": "https://gunnarvoet.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Successful recoveries of two test moorings deployed in San Diego Trough"
@@ -230,24 +381,41 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Gunnar Voet</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Gunnar Voet</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -447,29 +615,41 @@
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -608,11 +788,12 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Earlier this year in September we deployed two moorings in our backyard in the San Diego Trough. The goal of the mooring deployments was twofold: First, the BLT team wanted to practice deploying and recovering a mooring system we are borrowing from our colleague Hans van Haren from <a href="https://www.nioz.nl" target="_blank">NIOZ</a> in the Netherlands. The NIOZ mooring sports a large number of in-house-built high-precision temperature sensors with their clocks synched via an inductive pulse. Their measurements provide information on ocean stratification at high frequencies and high vertical resolution and can be used to study turbulence.  Second, we wanted to test a new design for a MAVS mooring. MAVS are acoustic travel time current meters that, paired with high precision thermistors, can be used to directly measure buoyancy fluxes. The test deployment of the MAVS will tell us whether the mooring is designed stable enough to allow for the high precision measurements needed to directly observe buoyancy fluxes. Eventually, both of these mooring types will be deployed during the main experimental phase of BLT in the Rockall Trough in summer 2020.</p>
-
+      <p>Earlier this year in September we deployed two moorings in our backyard in the San Diego Trough. The goal of the mooring deployments was twofold: First, the BLT team wanted to practice deploying and recovering a mooring system we are borrowing from our colleague Hans van Haren from 
+<a href="https://www.nioz.nl" target="_blank" rel="noopener">NIOZ</a> in the Netherlands. The NIOZ mooring sports a large number of in-house-built high-precision temperature sensors with their clocks synched via an inductive pulse. Their measurements provide information on ocean stratification at high frequencies and high vertical resolution and can be used to study turbulence.  Second, we wanted to test a new design for a MAVS mooring. MAVS are acoustic travel time current meters that, paired with high precision thermistors, can be used to directly measure buoyancy fluxes. The test deployment of the MAVS will tell us whether the mooring is designed stable enough to allow for the high precision measurements needed to directly observe buoyancy fluxes. Eventually, both of these mooring types will be deployed during the main experimental phase of BLT in the Rockall Trough in summer 2020.</p>
 <p>Today, we successfully recovered both moorings and brought all instruments safely back on board. The weather conditions offshore were perfect for smooth mooring recoveries from the R/V Sproul, one of the smaller ships of the research fleet based in San Diego. Data analysis in the upcoming days will tell us how the moorings performed and whether adjustments are needed before the moorings will be deployed in the Rockall Trough. An exciting byproduct of the test deployment will be information on near bottom flow conditions, stratification, turbulence and buoyancy fluxes in the San Diego Trough, a region so close to Scripps Institution of Oceanography and yet not very well explored.</p>
-
 <p>
+
+
 
 
   
@@ -627,11 +808,14 @@
 
 
 
-<figure>
+<figure id="figure-mooring-locations-in-the-san-diego-trough">
 
 
   <a data-fancybox="" href="/img/blt-pilot/final_mooring_locations.png" data-caption="Mooring locations in the San Diego Trough.">
-<img src="/img/blt-pilot/final_mooring_locations.png" alt="" ></a>
+
+
+  <img src="/img/blt-pilot/final_mooring_locations.png" alt=""  >
+</a>
 
 
   
@@ -646,6 +830,8 @@
 
 
 
+
+
   
 
 
@@ -658,11 +844,14 @@
 
 
 
-<figure>
+<figure id="figure-spencer-and-jeremiah-getting-the-ctd-ready">
 
 
   <a data-fancybox="" href="/img/blt-pilot/ctd.jpg" data-caption="Spencer and Jeremiah getting the CTD ready.">
-<img src="/img/blt-pilot/ctd.jpg" alt="" ></a>
+
+
+  <img src="/img/blt-pilot/ctd.jpg" alt=""  >
+</a>
 
 
   
@@ -677,6 +866,8 @@
 
 
 
+
+
   
 
 
@@ -689,11 +880,14 @@
 
 
 
-<figure>
+<figure id="figure-spencer-pinging-on-a-mooring">
 
 
   <a data-fancybox="" href="/img/blt-pilot/spencer-release.jpg" data-caption="Spencer pinging on a mooring.">
-<img src="/img/blt-pilot/spencer-release.jpg" alt="" ></a>
+
+
+  <img src="/img/blt-pilot/spencer-release.jpg" alt=""  >
+</a>
 
 
   
@@ -708,6 +902,8 @@
 
 
 
+
+
   
 
 
@@ -720,11 +916,14 @@
 
 
 
-<figure>
+<figure id="figure-spencer-and-brian">
 
 
   <a data-fancybox="" href="/img/blt-pilot/spencer-and-brian.jpg" data-caption="Spencer and Brian.">
-<img src="/img/blt-pilot/spencer-and-brian.jpg" alt="" ></a>
+
+
+  <img src="/img/blt-pilot/spencer-and-brian.jpg" alt=""  >
+</a>
 
 
   
@@ -739,6 +938,8 @@
 
 
 
+
+
   
 
 
@@ -751,11 +952,14 @@
 
 
 
-<figure>
+<figure id="figure-bethan-and-brian-winding-the-thermistor-chain-onto-the-tse-winch">
 
 
   <a data-fancybox="" href="/img/blt-pilot/thermistors.jpg" data-caption="Bethan and Brian winding the thermistor chain onto the TSE winch.">
-<img src="/img/blt-pilot/thermistors.jpg" alt="" ></a>
+
+
+  <img src="/img/blt-pilot/thermistors.jpg" alt=""  >
+</a>
 
 
   
@@ -770,6 +974,8 @@
 
 
 
+
+
   
 
 
@@ -782,11 +988,14 @@
 
 
 
-<figure>
+<figure id="figure-the-whoi-team-inspecting-the-recovered-mavs-instruments">
 
 
   <a data-fancybox="" href="/img/blt-pilot/mavs.jpg" data-caption="The WHOI team inspecting the recovered MAVS instruments.">
-<img src="/img/blt-pilot/mavs.jpg" alt="" ></a>
+
+
+  <img src="/img/blt-pilot/mavs.jpg" alt=""  >
+</a>
 
 
   
@@ -801,6 +1010,8 @@
 
 
 
+
+
   
 
 
@@ -813,11 +1024,14 @@
 
 
 
-<figure>
+<figure id="figure-bethan-on-the-tse-winch">
 
 
   <a data-fancybox="" href="/img/blt-pilot/bethan.jpg" data-caption="Bethan on the TSE winch.">
-<img src="/img/blt-pilot/bethan.jpg" alt="" ></a>
+
+
+  <img src="/img/blt-pilot/bethan.jpg" alt=""  >
+</a>
 
 
   
@@ -832,6 +1046,8 @@
 
 
 
+
+
   
 
 
@@ -844,11 +1060,14 @@
 
 
 
-<figure>
+<figure id="figure-jay-preparing-dinner">
 
 
   <a data-fancybox="" href="/img/blt-pilot/jjay.jpg" data-caption="Jay preparing dinner.">
-<img src="/img/blt-pilot/jjay.jpg" alt="" ></a>
+
+
+  <img src="/img/blt-pilot/jjay.jpg" alt=""  >
+</a>
 
 
   
@@ -864,6 +1083,7 @@
     </div>
 
     
+
 
 
 
@@ -934,29 +1154,31 @@
 
 
   
-
-
-
-
-
-
   
-  
+
+
+
+
+
   
     
-  
-  
-  <div class="media author-card content-widget-hr">
+    
     
       
-      <img class="portrait mr-3" src="/authors/gunnar/avatar_hu9d43d46db8059f3cb2efad9aaa7e7676_46237_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/authors/gunnar/avatar_hu9d43d46db8059f3cb2efad9aaa7e7676_46237_270x270_fill_q90_lanczos_center.jpg" alt="">
+      
 
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://gunnarvoet.github.io/">Gunnar Voet</a></h5>
-      <h6 class="card-subtitle">Physical Oceanographer</h6>
-      <p class="card-text">My research interests include small-scale physical oceanic processes and their role for the global ocean circulation.</p>
-      <ul class="network-icon" aria-hidden="true">
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://gunnarvoet.github.io/"></a></h5>
+        <h6 class="card-subtitle">Physical Oceanographer</h6>
+        <p class="card-text">My research interests include small-scale physical oceanic processes and their role for the global ocean circulation.</p>
+        <ul class="network-icon" aria-hidden="true">
   
     
     
@@ -1039,28 +1261,22 @@
   
 </ul>
 
+      </div>
     </div>
-  </div>
-
-
-
-
-
-
-
-
-
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/project/blt/">Boundary Layer Turbulence - BLT</a></li>
-      
-    </ul>
-  </div>
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1071,11 +1287,8 @@
 
     
     
-
     
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
@@ -1084,14 +1297,12 @@
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -1101,7 +1312,12 @@
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -1117,7 +1333,8 @@
         'post': "Posts",
         'project': "Projects",
         'publication' : "Publications",
-        'talk' : "Talks"
+        'talk' : "Talks",
+        'slides' : "Slides"
         };
     </script>
     
@@ -1154,6 +1371,9 @@
 
     
     
+
+    
+    
     
     
     
@@ -1166,7 +1386,7 @@
     
     
     
-    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -1182,8 +1402,18 @@
   
 
   <p class="powered-by">
-    &copy; 2019 Gunnar Voet &middot; 
+    © 2020 Gunnar Voet
+  </p>
 
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.

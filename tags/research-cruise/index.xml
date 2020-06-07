@@ -5,9 +5,9 @@
     <link>https://gunnarvoet.github.io/tags/research-cruise/</link>
       <atom:link href="https://gunnarvoet.github.io/tags/research-cruise/index.xml" rel="self" type="application/rss+xml" />
     <description>research-cruise</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Gunnar Voet</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gunnar Voet</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://gunnarvoet.github.io/img/icon-192.png</url>
+      <url>https://gunnarvoet.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>research-cruise</title>
       <link>https://gunnarvoet.github.io/tags/research-cruise/</link>
     </image>
@@ -18,8 +18,9 @@
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://gunnarvoet.github.io/post/research-cruise-iceland-2019/</guid>
       <description>&lt;p&gt;The goal of this cruise was to deploy three moorings in the Iceland Basin, the part of the North Atlantic south of Iceland. Weather conditions here can be rough which was one of the reasons for picking this region for NISKINe: Strong, changing winds force a strong near-inertial wave field in the ocean. Nevertheless, for our mooring deployment cruise we were hoping for calm conditions to get the moorings safely in the water. Except for a storm delaying our departure in Iceland we had calm and nice conditions and the moorings went in the water smoothly.&lt;/p&gt;
-
 &lt;p&gt;
+
+
 
 
   
@@ -34,11 +35,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-leaving-iceland&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/leaving_iceland.jpg&#34; data-caption=&#34;Leaving Iceland.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/leaving_iceland.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/leaving_iceland.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -53,6 +57,8 @@
 
 
 
+
+
   
 
 
@@ -65,11 +71,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-attaching-a-chipod-to-the-mooring-during-deployment&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/attaching_chipod.jpg&#34; data-caption=&#34;Attaching a chipod to the mooring during deployment.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/attaching_chipod.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/attaching_chipod.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -84,6 +93,8 @@
 
 
 
+
+
   
 
 
@@ -96,11 +107,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-late-night-flowquest-programming-session&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/working_late.JPG&#34; data-caption=&#34;Late night Flowquest programming session.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/working_late.JPG&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/working_late.JPG&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -115,6 +129,8 @@
 
 
 
+
+
   
 
 
@@ -127,11 +143,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-about-to-drop-the-last-anchor&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/final_mooring.JPG&#34; data-caption=&#34;About to drop the last anchor.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/final_mooring.JPG&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/final_mooring.JPG&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -146,6 +165,8 @@
 
 
 
+
+
   
 
 
@@ -158,11 +179,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-the-science-team&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/group_photo.JPG&#34; data-caption=&#34;The science team.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/group_photo.JPG&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/group_photo.JPG&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -177,6 +201,8 @@
 
 
 
+
+
   
 
 
@@ -189,11 +215,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-returning-to-iceland-in-much-calmer-weather-than-when-we-left&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg&#34; data-caption=&#34;Returning to Iceland in much calmer weather than when we left&amp;hellip;&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg&#34; data-caption=&#34;Returning to Iceland in much calmer weather than when we left&amp;amp;hellip;&#34;&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -208,6 +237,8 @@
 
 
 
+
+
   
 
 
@@ -220,11 +251,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-the-old-port-of-reykjavik-with-the-new-opera-and-icelands-research-vessel-arni-friðriksson&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg&#34; data-caption=&#34;The old port of Reykjavik with the new opera and Iceland&amp;rsquo;s research vessel Árni Friðriksson.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg&#34; data-caption=&#34;The old port of Reykjavik with the new opera and Iceland&amp;amp;rsquo;s research vessel Árni Friðriksson.&#34;&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -239,6 +273,8 @@
 
 
 
+
+
   
 
 
@@ -251,11 +287,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-barbeque-on-the-dock&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/bbq.jpg&#34; data-caption=&#34;Barbeque on the dock.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/bbq.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/bbq.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -267,8 +306,7 @@
 
 &lt;/figure&gt;
 &lt;/p&gt;
-
-&lt;p&gt;Photos &amp;copy; Ally Kawamoto, Nicole Couto&lt;/p&gt;
+&lt;p&gt;Photos © Ally Kawamoto, Nicole Couto&lt;/p&gt;
 </description>
     </item>
     
@@ -278,8 +316,8 @@
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       <guid>https://gunnarvoet.github.io/post/research-cruise-rr1708/</guid>
       <description>&lt;p&gt;This was our second and last FLEAT (Flow Encountering Abrupt Topography) cruise and my first time as chief scientist. We successfully recovered five moorings in the vicinity of the island group Palau. In addition, we conducted towed mesurements over submarine ridge along the island of Yap to observe lee waves generated by the mean flow.&lt;/p&gt;
-
 &lt;p&gt;The towyos over different parts of the ridge, at different depths, showed strong vertical oscillations of isopycnals and enhanced levels of turbulent dissipation. At each site we repeated the measurements several times over a tidal cycle to be able to discern tidally and mean-flow-generated lee waves. The figure below shows measurements from the deepest lee wave survey north of Yap. Upper panels show stratification and isopycnals, the lower panels turbulent dissipation as measured with chipods.&lt;/p&gt;
+
 
 
 
@@ -296,11 +334,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-repeat-towyo-sections-over-yap-ridge-upper-panels-show-stratification-colors-and-density-contours-lower-panels-show-turbulent-dissipation&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/towyo3.png&#34; data-caption=&#34;Repeat towyo sections over Yap Ridge. Upper panels show stratification (colors) and density (contours). Lower panels show turbulent dissipation.&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/towyo3.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/towyo3.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -312,8 +353,9 @@
 
 &lt;/figure&gt;
 
+&lt;p&gt;For more details take a look at the 
+&lt;a href=&#34;https://gunnarvoet.github.io/pdf/cruise_report_rr1708.pdf&#34;&gt;cruise report&lt;/a&gt;. Below are a few impressions from the cruise.&lt;/p&gt;
 
-&lt;p&gt;For more details take a look at the &lt;a href=&#34;https://gunnarvoet.github.io/pdf/cruise_report_rr1708.pdf&#34;&gt;cruise report&lt;/a&gt;. Below are a few impressions from the cruise.&lt;/p&gt;
 
 
 
@@ -330,11 +372,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-rv-revelle-anchored-near-the-dock-in-palau&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/revelle_anchored.jpg&#34; data-caption=&#34;R/V Revelle anchored near the dock in Palau&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/revelle_anchored.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/revelle_anchored.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -350,6 +395,7 @@
 
 
 
+
   
 
 
@@ -362,11 +408,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-recovering-a-mclane-moored-profiler&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/mp_recovery.jpg&#34; data-caption=&#34;Recovering a McLane Moored Profiler&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/mp_recovery.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/mp_recovery.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -382,6 +431,7 @@
 
 
 
+
   
 
 
@@ -394,11 +444,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-barnacle-growth-on-the-mooring-line&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/barnacles.jpg&#34; data-caption=&#34;Barnacle growth on the mooring line&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/barnacles.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/barnacles.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -414,6 +467,7 @@
 
 
 
+
   
 
 
@@ -426,11 +480,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-underway-to-the-next-mooring-site&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/steaming.jpg&#34; data-caption=&#34;Underway to the next mooring site&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/steaming.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/steaming.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -446,6 +503,7 @@
 
 
 
+
   
 
 
@@ -458,11 +516,14 @@
 
 
 
-&lt;figure&gt;
+&lt;figure id=&#34;figure-rv-revelle-near-velasco-reef&#34;&gt;
 
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/flyover2.jpg&#34; data-caption=&#34;R/V Revelle near Velasco Reef&#34;&gt;
-&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/flyover2.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/flyover2.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
 
 
   
@@ -474,8 +535,7 @@
 
 &lt;/figure&gt;
 
-
-&lt;p&gt;Photos &amp;copy; Kirstin Fitzmorris, Conrad Luecke, Derek Young, Mika Siegelman, Pat Collins&lt;/p&gt;
+&lt;p&gt;Photos © Kirstin Fitzmorris, Conrad Luecke, Derek Young, Mika Siegelman, Pat Collins&lt;/p&gt;
 </description>
     </item>
     
@@ -485,18 +545,12 @@
       <pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://gunnarvoet.github.io/post/research-cruise-rr1607/</guid>
       <description>&lt;p&gt;We spent three weeks on R/V Roger Revelle to study flow-topography interactions in the vicinity of Palau in the tropical North Pacific.&lt;/p&gt;
-
 &lt;p&gt;This was my first time as a co-PI on a research cruise. Together with leading the nightwatch and responsibility for six mooring deployments and one mooring recovery this turned out to be a very busy cruise. It was very rewarding as we did a ton of interesting science though!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/mooring_deployment.jpg&#34; alt=&#34;mooring deployment&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/cellphone_island.jpg&#34; alt=&#34;cellphone island&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/rain.jpg&#34; alt=&#34;rain&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/revelle_blue.jpg&#34; alt=&#34;revelle blue&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;All photos &amp;copy; Tyler Hughen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/mooring_deployment.jpg&#34; alt=&#34;mooring deployment&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/cellphone_island.jpg&#34; alt=&#34;cellphone island&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/rain.jpg&#34; alt=&#34;rain&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/revelle_blue.jpg&#34; alt=&#34;revelle blue&#34;&gt;&lt;/p&gt;
+&lt;p&gt;All photos © Tyler Hughen.&lt;/p&gt;
 </description>
     </item>
     
@@ -506,22 +560,15 @@
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       <guid>https://gunnarvoet.github.io/post/research-cruise-arctic-2015/</guid>
       <description>&lt;p&gt;Late August and September 2015 in the Beaufort Sea on R/V Sikuliaq to study how upper ocean turbulent mixing will change under ice-free conditions in a warmer climate. Increased turbulent mixing may bring up warmer Atlantic water from beneath the cold surface layer causing a positive feedback on Arctic sea ice retreat.&lt;/p&gt;
-
 &lt;p&gt;We deployed a mooring in the central Beaufort Sea and carried out shipboard measurements with SWIMS and MMP.&lt;/p&gt;
-
-&lt;p&gt;For more info see our &lt;a href=&#34;https://scripps.ucsd.edu/projects/arcticmix/&#34; target=&#34;_blank&#34;&gt;cruise blog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/sikuliaq.jpg&#34; alt=&#34;r/v sikuliaq&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/iceskin.jpg&#34; alt=&#34;iceskin&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/coffee.jpg&#34; alt=&#34;coffee&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/looking_back.jpg&#34; alt=&#34;looking back&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/workboat.jpg&#34; alt=&#34;workboat&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photos &amp;copy; Greg Wagner, Thomas Moore, Algot Peterson&lt;/p&gt;
+&lt;p&gt;For more info see our 
+&lt;a href=&#34;https://scripps.ucsd.edu/projects/arcticmix/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cruise blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/sikuliaq.jpg&#34; alt=&#34;r/v sikuliaq&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/iceskin.jpg&#34; alt=&#34;iceskin&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/coffee.jpg&#34; alt=&#34;coffee&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/looking_back.jpg&#34; alt=&#34;looking back&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/workboat.jpg&#34; alt=&#34;workboat&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Photos © Greg Wagner, Thomas Moore, Algot Peterson&lt;/p&gt;
 </description>
     </item>
     
@@ -531,26 +578,17 @@
       <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://gunnarvoet.github.io/post/research-cruise-ttide-2015/</guid>
       <description>&lt;p&gt;In January and March 2015 I went on two research cruises on R/V Roger Revelle to the Tasman Sea. I oversaw technical details, logistics, deployments and recoveries of the 15 TTIDE moorings, some of them full ocean depth down to 4000 m. The TTIDE project aimed at understanding the dissipation and reflection of internal tides impinging on a continental shelf. Working close to the Southern Ocean turned out to be quite challenging with strong winds and high seas for most of the time.&lt;/p&gt;
-
-&lt;p&gt;For more info see the &lt;a href=&#34;https://scripps.ucsd.edu/projects/ttide/&#34; target=&#34;_blank&#34;&gt;project website&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/grappling_hook.jpg&#34; alt=&#34;grappling hook&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/hopeful.jpg&#34; alt=&#34;hopeful&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/lab.jpg&#34; alt=&#34;lab&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/mp.jpg&#34; alt=&#34;mp&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/storm.jpg&#34; alt=&#34;storm&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/tasmania.jpg&#34; alt=&#34;tasmania&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/team.jpg&#34; alt=&#34;team&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/sky.jpg&#34; alt=&#34;sky&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photos &amp;copy; Thomas Moore&lt;/p&gt;
+&lt;p&gt;For more info see the 
+&lt;a href=&#34;https://scripps.ucsd.edu/projects/ttide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;project website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/grappling_hook.jpg&#34; alt=&#34;grappling hook&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/hopeful.jpg&#34; alt=&#34;hopeful&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/lab.jpg&#34; alt=&#34;lab&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/mp.jpg&#34; alt=&#34;mp&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/storm.jpg&#34; alt=&#34;storm&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/tasmania.jpg&#34; alt=&#34;tasmania&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/team.jpg&#34; alt=&#34;team&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/sky.jpg&#34; alt=&#34;sky&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Photos © Thomas Moore&lt;/p&gt;
 </description>
     </item>
     

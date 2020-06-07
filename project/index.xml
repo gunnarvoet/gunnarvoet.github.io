@@ -5,9 +5,9 @@
     <link>https://gunnarvoet.github.io/project/</link>
       <atom:link href="https://gunnarvoet.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Gunnar Voet</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gunnar Voet</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://gunnarvoet.github.io/img/icon-192.png</url>
+      <url>https://gunnarvoet.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>https://gunnarvoet.github.io/project/</link>
     </image>
@@ -23,6 +23,8 @@
 
 
 
+  
+  
 
 
 
@@ -32,11 +34,16 @@
 
 
 
-&lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;featured.png&#34; data-caption=&#34;Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons &amp;amp; Alford (2012).&#34;&gt;
-&lt;img src=&#34;featured.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+&lt;figure id=&#34;figure-schematic-showing-processes-associated-with-near-inertial-generation-dissipation-and-propagation-as-storms-move-along-the-storm-track-thick-white-arrow-a-local-response-occurs-with-frequencies-near-the-local-coriolis-frequency-both-high--and-low-mode-internal-gravity-waves-are-excited-high-modes-propagate-along-curving-characteristics-downward-and-equatorward-the-higher-modes-have-strong-shear-that-results-in-mixing-εz-low-mode-wave-radiation-indicated-in-gray-takes-the-form-of-oscillations-that-propagate-equatorward-upward-characteristics-and-topographic-scattering-have-been-observed-but-the-processes-involved-are-not-completely-understood-from-alford-et-al-2015-modified-from-simmons--alford-2012&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/project/niskine/featured_hu2a35204f8bfe2a2fb0b5d524494f21c4_1070700_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons &amp;amp;amp; Alford (2012).&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://gunnarvoet.github.io/project/niskine/featured_hu2a35204f8bfe2a2fb0b5d524494f21c4_1070700_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2086&#34; height=&#34;1220&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -48,9 +55,7 @@
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;The Office of Naval Research-sponsored Near Inertial Shear and Kinetic Energy in the North Atlantic experiment (NISKINe) aims at investigating generation, evolution and dissipation of near-inertial waves based on a variety of ship-based and autonomous observations, numerical models and theory. Field work is planned for the Iceland Basin in the North Atlantic, an area of intermittent strong storms, an active mesoscale field in the ocean and a region of strong surface currents, potentially feeding submesoscale dynamics.&lt;/p&gt;
-
 &lt;p&gt;Together with my Scripps colleagues Amy Waterhouse and Matthew Alford, and our collaborators Jim Moum from Oregon State University and Harper Simmons from University of Alaska, I am contributing a moored observational component to the project.  In May 2019 we deployed an array of three moorings, outfitted with ADCPs, McLane Moored Profilers, thermistors &amp;amp; microcats and turbulence-measuring chipods, in the center of the Iceland Basin. The moorings will provide time series of shear and stratification during times of the field experiment, when a lot of autonomous instruments will be deployed around the moorings, and during the spring and fall storm seasons, when the forcing of near-inertial waves is expected to be strongest.&lt;/p&gt;
 </description>
     </item>
@@ -78,8 +83,8 @@
       <link>https://gunnarvoet.github.io/project/hyprsp/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://gunnarvoet.github.io/project/hyprsp/</guid>
-      <description>&lt;p&gt;We just got funded by NSF to study abyssal hydraulic processes in the Samoan Passage. The project will heavily build upon data collected in the &lt;a href=&#34;https://gunnarvoet.github.io/project/samoan-passage/&#34; target=&#34;_blank&#34;&gt;Samoan Passage Abyssal Mixing Experiment&lt;/a&gt;. In addition, we are planning on running a suite of numerical models spanning from idealized 2D to high-resolution 3D runs that will be tuned to observed turbulent mixing. This dataset will help us identify and study a number of processes that are loosely termed &lt;em&gt;hydraulic&lt;/em&gt; - they arise when bottom topography restricts the free flow of the bottom current. Hydraulic processes may cause and alter turbulent mixing of the abyssal current with ambient water and impose restrictions on the maximum flow through the Samoan Passage.&lt;/p&gt;
-
+      <description>&lt;p&gt;We just got funded by NSF to study abyssal hydraulic processes in the Samoan Passage. The project will heavily build upon data collected in the 
+&lt;a href=&#34;https://gunnarvoet.github.io/project/samoan-passage/&#34;&gt;Samoan Passage Abyssal Mixing Experiment&lt;/a&gt;. In addition, we are planning on running a suite of numerical models spanning from idealized 2D to high-resolution 3D runs that will be tuned to observed turbulent mixing. This dataset will help us identify and study a number of processes that are loosely termed &lt;em&gt;hydraulic&lt;/em&gt; - they arise when bottom topography restricts the free flow of the bottom current. Hydraulic processes may cause and alter turbulent mixing of the abyssal current with ambient water and impose restrictions on the maximum flow through the Samoan Passage.&lt;/p&gt;
 &lt;p&gt;Present theory is unable to account for a number of hydraulic aspects that let the flow through Samoan Passage stand out. Among these are flow through connecting channels, flow through channels with two sill configurations and flow across sills with complex bathymetry. Getting a handle on these processes will be important for better understanding the large scale circulation of the Pacific Ocean as the Samoan Passage is the major supplier for deep water renewal in the North Pacific. Moreover, these configurations are by no means unique to the flow through Samoan Passage and a better knowledge of hydraulic processes here will inform research of the flow at many other canyons and fracture zones of the world&amp;rsquo;s oceans.&lt;/p&gt;
 </description>
     </item>
@@ -90,7 +95,6 @@
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://gunnarvoet.github.io/project/fleat/</guid>
       <description>&lt;p&gt;The ONR-funded project FLEAT aims at studying interactions of mean-flow and topography in the vicinity of Palau. We try to answer questions like &lt;em&gt;how are energy and momentum of mean and meso-scale flow affected by interactions with bathymetry?&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;The vicinity of Palau in the tropical North Pacific provides an ideal natural laboratory - steep topography and strong currents make up for exciting experiment sites. In June 2016 we deployed moorings and carried out shipboard measurements with various instruments to study the generation of lee waves and lee vortices as the flow interacted with the northern end of Palau.&lt;/p&gt;
 </description>
     </item>
@@ -101,7 +105,6 @@
       <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://gunnarvoet.github.io/project/samoan-passage/</guid>
       <description>&lt;p&gt;The Samoan Passage is the major gateway for deep water renewal in the North Pacific where virtually no bottom waters are formed locally. About 6 Sv (1 Sv $\equiv 1 \times 10^6$ m$^3$ s$^{-1}$), more than half of the abyssal northward limb of the Pacific Meridional Overturning Circulation (MOC), flows through the Samoan Passage while smaller amounts flow across Robbie Ridge to the west and around the Manihiki Plateau to the east. As the bottom current is forced through the narrow channels and across the sills of the Samoan Passage it is strongly modified by turbulent mixing.&lt;/p&gt;
-
 &lt;p&gt;In our recent NSF-funded &lt;em&gt;Samoan Passage Abyssal Mixing Experiment&lt;/em&gt; we gathered moored and shipboard measurements to re-assess the long term volume transport through the Samoan Passage and to study flow pathways and turbulent mixing processes in the Samoan Passage. Moored long-term observations of the abyssal flow through the Samoan Passage, when compared to historical measurements, showed a slightly weakened volume transport by about 0.6 Sv or 10% and a significant warming of $1\times10^{-3}$ K/yr over the past two decades. Shipboard CTD/LADCP sections from a cruise in 2012 revealed the flow pathways through the Samoan Passage with the unanticipated result of about half the volume transport going through shallower channels to the west while the other, denser, half goes through the main eastern channel.   Topographic sills along both pathways lead to hydraulic response and strong associated acceleration and mixing of the flow.   Detailed measurements at the primary sill of the eastern channelw showed flow acceleration to more than 0.5 m/s.  The first direct turbulence measurements with an autonomous Vertical Microstructure Profiler in the Samoan Passage revealed 1000 to 10,000 times stronger turbulence than oceanographic background levels.   Heat-budget derived estimates of turbulent mixing levels were 2 to 6 times higher than area-averaged mixing levels in the Samoan Passage, pointing to the importance of mixing concentrated at so-called hot-spots.   These mixing hot-spots are located downstream of the sills, where the flow, likely hydraulically controlled, accelerates, and hydraulic jumps with the highest mixing levels in the region were observed.&lt;/p&gt;
 </description>
     </item>
