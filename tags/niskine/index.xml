@@ -1,362 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>niskine | Gunnar Voet</title>
-    <link>https://gunnarvoet.github.io/tags/niskine/</link>
-      <atom:link href="https://gunnarvoet.github.io/tags/niskine/index.xml" rel="self" type="application/rss+xml" />
-    <description>niskine</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gunnar Voet</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://gunnarvoet.github.io/images/icon_hud692a76e5d31a98a8df50b31c984ca7f_48833_512x512_fill_lanczos_center_2.png</url>
-      <title>niskine</title>
-      <link>https://gunnarvoet.github.io/tags/niskine/</link>
-    </image>
-    
-    <item>
-      <title>Research Cruise Iceland 2019</title>
-      <link>https://gunnarvoet.github.io/post/research-cruise-iceland-2019/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/post/research-cruise-iceland-2019/</guid>
-      <description>&lt;p&gt;The goal of this cruise was to deploy three moorings in the Iceland Basin, the part of the North Atlantic south of Iceland. Weather conditions here can be rough which was one of the reasons for picking this region for NISKINe: Strong, changing winds force a strong near-inertial wave field in the ocean. Nevertheless, for our mooring deployment cruise we were hoping for calm conditions to get the moorings safely in the water. Except for a storm delaying our departure in Iceland we had calm and nice conditions and the moorings went in the water smoothly.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-leaving-iceland&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/leaving_iceland.jpg&#34; data-caption=&#34;Leaving Iceland.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/leaving_iceland.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Leaving Iceland.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-attaching-a-chipod-to-the-mooring-during-deployment&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/attaching_chipod.jpg&#34; data-caption=&#34;Attaching a chipod to the mooring during deployment.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/attaching_chipod.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Attaching a chipod to the mooring during deployment.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-late-night-flowquest-programming-session&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/working_late.JPG&#34; data-caption=&#34;Late night Flowquest programming session.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/working_late.JPG&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Late night Flowquest programming session.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-about-to-drop-the-last-anchor&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/final_mooring.JPG&#34; data-caption=&#34;About to drop the last anchor.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/final_mooring.JPG&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    About to drop the last anchor.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-the-science-team&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/group_photo.JPG&#34; data-caption=&#34;The science team.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/group_photo.JPG&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    The science team.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-returning-to-iceland-in-much-calmer-weather-than-when-we-left&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg&#34; data-caption=&#34;Returning to Iceland in much calmer weather than when we left&amp;amp;hellip;&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Returning to Iceland in much calmer weather than when we left&amp;hellip;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-the-old-port-of-reykjavik-with-the-new-opera-and-icelands-research-vessel-arni-friðriksson&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg&#34; data-caption=&#34;The old port of Reykjavik with the new opera and Iceland&amp;amp;rsquo;s research vessel Árni Friðriksson.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    The old port of Reykjavik with the new opera and Iceland&amp;rsquo;s research vessel Árni Friðriksson.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-barbeque-on-the-dock&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/bbq.jpg&#34; data-caption=&#34;Barbeque on the dock.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/bbq.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Barbeque on the dock.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;Photos © Ally Kawamoto, Nicole Couto&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Near-Inertial Shear and Kinetic Energy in the North Atlantic Experiment - NISKINe</title>
-      <link>https://gunnarvoet.github.io/project/niskine/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/project/niskine/</guid>
-      <description>&lt;p&gt;Variable winds at the ocean surface can force motions inside the ocean that oscillate at frequencies set by the local component of the earth&amp;rsquo;s rotation rate.  Motions at these near-inertial frequencies, so called near-inertial waves, dominate upper ocean shear and contribute to upper ocean turbulence.  Their generation, evolution and decay still remain poorly understood. Recent advances in theory and numerical modeling have pointed to interactions of near-inertial waves with mesoscale and submescoscale features.&lt;/p&gt;
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-schematic-showing-processes-associated-with-near-inertial-generation-dissipation-and-propagation-as-storms-move-along-the-storm-track-thick-white-arrow-a-local-response-occurs-with-frequencies-near-the-local-coriolis-frequency-both-high--and-low-mode-internal-gravity-waves-are-excited-high-modes-propagate-along-curving-characteristics-downward-and-equatorward-the-higher-modes-have-strong-shear-that-results-in-mixing-εz-low-mode-wave-radiation-indicated-in-gray-takes-the-form-of-oscillations-that-propagate-equatorward-upward-characteristics-and-topographic-scattering-have-been-observed-but-the-processes-involved-are-not-completely-understood-from-alford-et-al-2015-modified-from-simmons--alford-2012&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/project/niskine/featured_hu2a35204f8bfe2a2fb0b5d524494f21c4_1070700_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons &amp;amp;amp; Alford (2012).&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://gunnarvoet.github.io/project/niskine/featured_hu2a35204f8bfe2a2fb0b5d524494f21c4_1070700_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2086&#34; height=&#34;1220&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons &amp;amp; Alford (2012).
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;The Office of Naval Research-sponsored Near Inertial Shear and Kinetic Energy in the North Atlantic experiment (NISKINe) aims at investigating generation, evolution and dissipation of near-inertial waves based on a variety of ship-based and autonomous observations, numerical models and theory. Field work is planned for the Iceland Basin in the North Atlantic, an area of intermittent strong storms, an active mesoscale field in the ocean and a region of strong surface currents, potentially feeding submesoscale dynamics.&lt;/p&gt;
-&lt;p&gt;Together with my Scripps colleagues Amy Waterhouse and Matthew Alford, and our collaborators Jim Moum from Oregon State University and Harper Simmons from University of Alaska, I am contributing a moored observational component to the project.  In May 2019 we deployed an array of three moorings, outfitted with ADCPs, McLane Moored Profilers, thermistors &amp;amp; microcats and turbulence-measuring chipods, in the center of the Iceland Basin. The moorings will provide time series of shear and stratification during times of the field experiment, when a lot of autonomous instruments will be deployed around the moorings, and during the spring and fall storm seasons, when the forcing of near-inertial waves is expected to be strongest.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>niskine | Gunnar Voet</title><link>https://gunnarvoet.github.io/tags/niskine/</link><atom:link href="https://gunnarvoet.github.io/tags/niskine/index.xml" rel="self" type="application/rss+xml"/><description>niskine</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gunnar Voet</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate><image><url>https://gunnarvoet.github.io/images/icon_hud692a76e5d31a98a8df50b31c984ca7f_48833_512x512_fill_lanczos_center_3.png</url><title>niskine</title><link>https://gunnarvoet.github.io/tags/niskine/</link></image><item><title>Research Cruise Iceland 2019</title><link>https://gunnarvoet.github.io/post/research-cruise-iceland-2019/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/post/research-cruise-iceland-2019/</guid><description>&lt;p>The goal of this cruise was to deploy three moorings in the Iceland Basin, the part of the North Atlantic south of Iceland. Weather conditions here can be rough which was one of the reasons for picking this region for NISKINe: Strong, changing winds force a strong near-inertial wave field in the ocean. Nevertheless, for our mooring deployment cruise we were hoping for calm conditions to get the moorings safely in the water. Except for a storm delaying our departure in Iceland we had calm and nice conditions and the moorings went in the water smoothly.&lt;/p>
+&lt;p>
+&lt;figure id="figure-leaving-iceland">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/leaving_iceland.jpg" data-caption="Leaving Iceland.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/leaving_iceland.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Leaving Iceland.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-attaching-a-chipod-to-the-mooring-during-deployment">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/attaching_chipod.jpg" data-caption="Attaching a chipod to the mooring during deployment.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/attaching_chipod.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Attaching a chipod to the mooring during deployment.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-late-night-flowquest-programming-session">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/working_late.JPG" data-caption="Late night Flowquest programming session.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/working_late.JPG" alt="" >
+&lt;/a>
+&lt;figcaption>
+Late night Flowquest programming session.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-about-to-drop-the-last-anchor">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/final_mooring.JPG" data-caption="About to drop the last anchor.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/final_mooring.JPG" alt="" >
+&lt;/a>
+&lt;figcaption>
+About to drop the last anchor.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-the-science-team">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/group_photo.JPG" data-caption="The science team.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/group_photo.JPG" alt="" >
+&lt;/a>
+&lt;figcaption>
+The science team.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-returning-to-iceland-in-much-calmer-weather-than-when-we-left">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg" data-caption="Returning to Iceland in much calmer weather than when we left&amp;amp;hellip;">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Returning to Iceland in much calmer weather than when we left&amp;hellip;
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-the-old-port-of-reykjavik-with-the-new-opera-and-icelands-research-vessel-arni-friðriksson">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg" data-caption="The old port of Reykjavik with the new opera and Iceland&amp;amp;rsquo;s research vessel Árni Friðriksson.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+The old port of Reykjavik with the new opera and Iceland&amp;rsquo;s research vessel Árni Friðriksson.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-barbeque-on-the-dock">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/bbq.jpg" data-caption="Barbeque on the dock.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/bbq.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Barbeque on the dock.
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Photos © Ally Kawamoto, Nicole Couto&lt;/p></description></item><item><title>Near-Inertial Shear and Kinetic Energy in the North Atlantic Experiment - NISKINe</title><link>https://gunnarvoet.github.io/project/niskine/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/project/niskine/</guid><description>&lt;p>Variable winds at the ocean surface can force motions inside the ocean that oscillate at frequencies set by the local component of the earth&amp;rsquo;s rotation rate. Motions at these near-inertial frequencies, so called near-inertial waves, dominate upper ocean shear and contribute to upper ocean turbulence. Their generation, evolution and decay still remain poorly understood. Recent advances in theory and numerical modeling have pointed to interactions of near-inertial waves with mesoscale and submescoscale features.&lt;/p>
+&lt;figure id="figure-schematic-showing-processes-associated-with-near-inertial-generation-dissipation-and-propagation-as-storms-move-along-the-storm-track-thick-white-arrow-a-local-response-occurs-with-frequencies-near-the-local-coriolis-frequency-both-high--and-low-mode-internal-gravity-waves-are-excited-high-modes-propagate-along-curving-characteristics-downward-and-equatorward-the-higher-modes-have-strong-shear-that-results-in-mixing-εz-low-mode-wave-radiation-indicated-in-gray-takes-the-form-of-oscillations-that-propagate-equatorward-upward-characteristics-and-topographic-scattering-have-been-observed-but-the-processes-involved-are-not-completely-understood-from-alford-et-al-2015-modified-from-simmons--alford-2012">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/project/niskine/featured_hu2a35204f8bfe2a2fb0b5d524494f21c4_1070700_2000x2000_fit_lanczos_3.png" data-caption="Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons &amp;amp;amp; Alford (2012).">
+&lt;img data-src="https://gunnarvoet.github.io/project/niskine/featured_hu2a35204f8bfe2a2fb0b5d524494f21c4_1070700_2000x2000_fit_lanczos_3.png" class="lazyload" alt="" width="2086" height="1220">
+&lt;/a>
+&lt;figcaption>
+Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons &amp;amp; Alford (2012).
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>The Office of Naval Research-sponsored Near Inertial Shear and Kinetic Energy in the North Atlantic experiment (NISKINe) aims at investigating generation, evolution and dissipation of near-inertial waves based on a variety of ship-based and autonomous observations, numerical models and theory. Field work is planned for the Iceland Basin in the North Atlantic, an area of intermittent strong storms, an active mesoscale field in the ocean and a region of strong surface currents, potentially feeding submesoscale dynamics.&lt;/p>
+&lt;p>Together with my Scripps colleagues Amy Waterhouse and Matthew Alford, and our collaborators Jim Moum from Oregon State University and Harper Simmons from University of Alaska, I am contributing a moored observational component to the project. In May 2019 we deployed an array of three moorings, outfitted with ADCPs, McLane Moored Profilers, thermistors &amp;amp; microcats and turbulence-measuring chipods, in the center of the Iceland Basin. The moorings will provide time series of shear and stratification during times of the field experiment, when a lot of autonomous instruments will be deployed around the moorings, and during the spring and fall storm seasons, when the forcing of near-inertial waves is expected to be strongest.&lt;/p></description></item></channel></rss>

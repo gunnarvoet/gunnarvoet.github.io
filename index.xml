@@ -1,34 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Gunnar Voet</title>
-    <link>https://gunnarvoet.github.io/</link>
-      <atom:link href="https://gunnarvoet.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Gunnar Voet</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gunnar Voet</copyright><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://gunnarvoet.github.io/images/icon_hud692a76e5d31a98a8df50b31c984ca7f_48833_512x512_fill_lanczos_center_2.png</url>
-      <title>Gunnar Voet</title>
-      <link>https://gunnarvoet.github.io/</link>
-    </image>
-    
-    <item>
-      <title>watchmagic</title>
-      <link>https://gunnarvoet.github.io/post/watchmagic/</link>
-      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/post/watchmagic/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://jupyter.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupyter notebooks&lt;/a&gt; are a great tool for explorative data analysis. However, they tend to get a little messy as a project grows in size and I have gotten into the habit of moving most of my code into external packages which I then import into a notebook. This way, I can still keep figures and notes in the notebook while keeping the analysis code modular and being able to edit it in an external editor. Using IPython&amp;rsquo;s &lt;code&gt;%autoreload&lt;/code&gt; magic, the external code can automatically be udpated inside the notebook every time a cell is re-evaluated. Awesome! The only slightly annoying part of this workflow is having to jump back and forth between editor and notebook every time the code has been changed, just to re-evaluate a cell.&lt;/p&gt;
-&lt;p&gt;Meet 
-&lt;a href=&#34;https://github.com/gunnarvoet/watchmagic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;watchmagic&lt;/a&gt;. It adds the &lt;code&gt;%%watch&lt;/code&gt; magic command to IPython. If added to the top of a cell, &lt;code&gt;%%watch&lt;/code&gt; will observe a given directory and re-evaluate the cell on file changes. This way, I only have to save my progress in the editor and can watch the notebook update by itself whenever I change a file. Under the hood, 
-&lt;a href=&#34;https://github.com/gunnarvoet/watchmagic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;watchmagic&lt;/a&gt; leverages the 
-&lt;a href=&#34;https://pythonhosted.org/watchdog/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;watchdog&lt;/a&gt; package.&lt;/p&gt;
-&lt;p&gt;Installation of 
-&lt;a href=&#34;https://github.com/gunnarvoet/watchmagic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;watchmagic&lt;/a&gt; is as simple as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;pip install watchmagic
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;A very basic example of displaying a plot in the notebook with analysis code development in the external file &lt;code&gt;science_plots.py&lt;/code&gt; may look like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# import external package with analysis code
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gunnar Voet</title><link>https://gunnarvoet.github.io/</link><atom:link href="https://gunnarvoet.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Gunnar Voet</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gunnar Voet</copyright><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate><image><url>https://gunnarvoet.github.io/images/icon_hud692a76e5d31a98a8df50b31c984ca7f_48833_512x512_fill_lanczos_center_3.png</url><title>Gunnar Voet</title><link>https://gunnarvoet.github.io/</link></image><item><title>watchmagic</title><link>https://gunnarvoet.github.io/post/watchmagic/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/post/watchmagic/</guid><description>&lt;p>
+&lt;a href="https://jupyter.org/" target="_blank" rel="noopener">Jupyter notebooks&lt;/a> are a great tool for explorative data analysis. However, they tend to get a little messy as a project grows in size and I have gotten into the habit of moving most of my code into external packages which I then import into a notebook. This way, I can still keep figures and notes in the notebook while keeping the analysis code modular and being able to edit it in an external editor. Using IPython&amp;rsquo;s &lt;code>%autoreload&lt;/code> magic, the external code can automatically be udpated inside the notebook every time a cell is re-evaluated. Awesome! The only slightly annoying part of this workflow is having to jump back and forth between editor and notebook every time the code has been changed, just to re-evaluate a cell.&lt;/p>
+&lt;p>Meet
+&lt;a href="https://github.com/gunnarvoet/watchmagic" target="_blank" rel="noopener">watchmagic&lt;/a>. It adds the &lt;code>%%watch&lt;/code> magic command to IPython. If added to the top of a cell, &lt;code>%%watch&lt;/code> will observe a given directory and re-evaluate the cell on file changes. This way, I only have to save my progress in the editor and can watch the notebook update by itself whenever I change a file. Under the hood,
+&lt;a href="https://github.com/gunnarvoet/watchmagic" target="_blank" rel="noopener">watchmagic&lt;/a> leverages the
+&lt;a href="https://pythonhosted.org/watchdog/" target="_blank" rel="noopener">watchdog&lt;/a> package.&lt;/p>
+&lt;p>Installation of
+&lt;a href="https://github.com/gunnarvoet/watchmagic" target="_blank" rel="noopener">watchmagic&lt;/a> is as simple as&lt;/p>
+&lt;pre>&lt;code class="language-shell">pip install watchmagic
+&lt;/code>&lt;/pre>
+&lt;p>A very basic example of displaying a plot in the notebook with analysis code development in the external file &lt;code>science_plots.py&lt;/code> may look like this:&lt;/p>
+&lt;pre>&lt;code class="language-python"># import external package with analysis code
 import science_plots
 # load autoreload magic
 %load_ext autoreload
@@ -36,1195 +17,277 @@ import science_plots
 %autoreload 2
 # load watch magic
 %load_ext watchmagic
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;%%watch --patterns *.py
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-python">%%watch --patterns *.py
 # call external code
 science_plots.overview_plot()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;After editing &lt;code&gt;science_plots.py&lt;/code&gt; and saving it, the plot will be updated:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;watch: ./science_plots.py has been modified
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./Untitled_1_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;By default, &lt;code&gt;%%watch&lt;/code&gt; will look for changes in the current directory. A different directory can be supplied via the &lt;code&gt;--path&lt;/code&gt; command line option. In the example above the &lt;code&gt;--patterns&lt;/code&gt; command line option is used to only look for changes in &lt;code&gt;*.py&lt;/code&gt; files. The following command line options are available:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;-p PATH, --path PATH  provides the PATH to watch for file changes. If
-                        not provided, the current directory will be
-                        watched.
--r, --recursive       include subdirectories recursively when
-                        watching for file changes. This is the default
-                        behaviour.
--nr, --non-recursive  do not include subdirectories when watching for
-                        file changes.
+&lt;/code>&lt;/pre>
+&lt;p>After editing &lt;code>science_plots.py&lt;/code> and saving it, the plot will be updated:&lt;/p>
+&lt;pre>&lt;code class="language-shell">watch: ./science_plots.py has been modified
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="./Untitled_1_1.png" alt="png">&lt;/p>
+&lt;p>By default, &lt;code>%%watch&lt;/code> will look for changes in the current directory. A different directory can be supplied via the &lt;code>--path&lt;/code> command line option. In the example above the &lt;code>--patterns&lt;/code> command line option is used to only look for changes in &lt;code>*.py&lt;/code> files. The following command line options are available:&lt;/p>
+&lt;pre>&lt;code class="language-shell">-p PATH, --path PATH provides the PATH to watch for file changes. If
+not provided, the current directory will be
+watched.
+-r, --recursive include subdirectories recursively when
+watching for file changes. This is the default
+behaviour.
+-nr, --non-recursive do not include subdirectories when watching for
+file changes.
 --patterns &amp;lt;[PATTERNS [PATTERNS ...]]&amp;gt;
-                        look for files with these PATTERNS.
+look for files with these PATTERNS.
 --ignore &amp;lt;[IGNORE_PATTERNS [IGNORE_PATTERNS ...]]&amp;gt;
-                        ignore files containing IGNORE_PATTERNS when
-                        watching for file changes.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Defaults for a few parameters can be set in the 
-&lt;a href=&#34;https://ipython.readthedocs.io/en/stable/config/intro.html#setting-configurable-options&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;.ipython_config.py&lt;/a&gt; file by adding any of the following lines:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#---------------------------------------------------------------
+ignore files containing IGNORE_PATTERNS when
+watching for file changes.
+&lt;/code>&lt;/pre>
+&lt;p>Defaults for a few parameters can be set in the
+&lt;a href="https://ipython.readthedocs.io/en/stable/config/intro.html#setting-configurable-options" target="_blank" rel="noopener">.ipython_config.py&lt;/a> file by adding any of the following lines:&lt;/p>
+&lt;pre>&lt;code class="language-python">#---------------------------------------------------------------
 # WatchMagics configuration
 #---------------------------------------------------------------
-c.WatchMagics.default_patterns = [&#39;*.py&#39;]
-c.WatchMagics.default_ignore_patterns = [&#39;*.ipynb&#39;]
+c.WatchMagics.default_patterns = ['*.py']
+c.WatchMagics.default_ignore_patterns = ['*.ipynb']
 c.WatchMagics.default_case_sensitive = False
 c.WatchMagics.default_ignore_directories = True
-&lt;/code&gt;&lt;/pre&gt;
-&lt;!-- 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-&lt;video controls &gt;
-  &lt;source src=&#34;watchmagic_example.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt; --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Topographic Form Drag on Tides and Low-Frequency Flow: Observations of Nonlinear Lee Waves over a Tall Submarine Ridge near Palau</title>
-      <link>https://gunnarvoet.github.io/publication/journal-article/fleat-lee-waves/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/publication/journal-article/fleat-lee-waves/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BLT Test Moorings Recovered</title>
-      <link>https://gunnarvoet.github.io/post/blt-pilot-recovery/</link>
-      <pubDate>Wed, 06 Nov 2019 20:23:56 -0800</pubDate>
-      <guid>https://gunnarvoet.github.io/post/blt-pilot-recovery/</guid>
-      <description>&lt;p&gt;Earlier this year in September we deployed two moorings in our backyard in the San Diego Trough. The goal of the mooring deployments was twofold: First, the BLT team wanted to practice deploying and recovering a mooring system we are borrowing from our colleague Hans van Haren from 
-&lt;a href=&#34;https://www.nioz.nl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIOZ&lt;/a&gt; in the Netherlands. The NIOZ mooring sports a large number of in-house-built high-precision temperature sensors with their clocks synched via an inductive pulse. Their measurements provide information on ocean stratification at high frequencies and high vertical resolution and can be used to study turbulence.  Second, we wanted to test a new design for a MAVS mooring. MAVS are acoustic travel time current meters that, paired with high precision thermistors, can be used to directly measure buoyancy fluxes. The test deployment of the MAVS will tell us whether the mooring is designed stable enough to allow for the high precision measurements needed to directly observe buoyancy fluxes. Eventually, both of these mooring types will be deployed during the main experimental phase of BLT in the Rockall Trough in summer 2020.&lt;/p&gt;
-&lt;p&gt;Today, we successfully recovered both moorings and brought all instruments safely back on board. The weather conditions offshore were perfect for smooth mooring recoveries from the R/V Sproul, one of the smaller ships of the research fleet based in San Diego. Data analysis in the upcoming days will tell us how the moorings performed and whether adjustments are needed before the moorings will be deployed in the Rockall Trough. An exciting byproduct of the test deployment will be information on near bottom flow conditions, stratification, turbulence and buoyancy fluxes in the San Diego Trough, a region so close to Scripps Institution of Oceanography and yet not very well explored.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-mooring-locations-in-the-san-diego-trough&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/final_mooring_locations.png&#34; data-caption=&#34;Mooring locations in the San Diego Trough.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/final_mooring_locations.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Mooring locations in the San Diego Trough.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-spencer-and-jeremiah-getting-the-ctd-ready&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/ctd.jpg&#34; data-caption=&#34;Spencer and Jeremiah getting the CTD ready.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/ctd.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Spencer and Jeremiah getting the CTD ready.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-spencer-pinging-on-a-mooring&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/spencer-release.jpg&#34; data-caption=&#34;Spencer pinging on a mooring.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/spencer-release.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Spencer pinging on a mooring.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-spencer-and-brian&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/spencer-and-brian.jpg&#34; data-caption=&#34;Spencer and Brian.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/spencer-and-brian.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Spencer and Brian.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-bethan-and-brian-winding-the-thermistor-chain-onto-the-tse-winch&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/thermistors.jpg&#34; data-caption=&#34;Bethan and Brian winding the thermistor chain onto the TSE winch.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/thermistors.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Bethan and Brian winding the thermistor chain onto the TSE winch.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-the-whoi-team-inspecting-the-recovered-mavs-instruments&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/mavs.jpg&#34; data-caption=&#34;The WHOI team inspecting the recovered MAVS instruments.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/mavs.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    The WHOI team inspecting the recovered MAVS instruments.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-bethan-on-the-tse-winch&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/bethan.jpg&#34; data-caption=&#34;Bethan on the TSE winch.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/bethan.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Bethan on the TSE winch.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-jay-preparing-dinner&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/blt-pilot/jjay.jpg&#34; data-caption=&#34;Jay preparing dinner.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/blt-pilot/jjay.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Jay preparing dinner.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Step Beyond</title>
-      <link>https://gunnarvoet.github.io/post/a-step-beyond/</link>
-      <pubDate>Tue, 29 Oct 2019 22:07:26 -0700</pubDate>
-      <guid>https://gunnarvoet.github.io/post/a-step-beyond/</guid>
-      <description>&lt;p&gt;Today I had the opportunity to participate in an unusual class setting: At 
-&lt;a href=&#34;https://a-step-beyond.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Step Beyond&lt;/a&gt; in Escondido, CA, I talked to 5th and 6th graders about some of the observational methods we use in physical oceanography. In between the lessons, the students, together with their dance teacher Roxanne Rojas de Blanco, came up with dance moves to transform what they had just learned into a choreography.  With a lot of creative energy the students danced ships in stormy seas and subsurface moorings knocked over by strong currents. Many thanks to Roxanne and my colleague Larry Pratt from WHOI for organizing this workshop and to the National Science Foundation for financial support through our Samoan Passage research project!&lt;/p&gt;
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-larry-pratt-explaining-the-origins-of-water-on-earth-to-the-class&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/post/a-step-beyond/larry_hub93307cc1f30c6a9f5062110219cd2ff_1216253_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Larry Pratt explaining the origins of water on earth to the class.&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://gunnarvoet.github.io/post/a-step-beyond/larry_hub93307cc1f30c6a9f5062110219cd2ff_1216253_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;3148&#34; height=&#34;2159&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Larry Pratt explaining the origins of water on earth to the class.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Persistent Turbulence in the Samoan Passage</title>
-      <link>https://gunnarvoet.github.io/publication/journal-article/cusack-etal-2019/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/publication/journal-article/cusack-etal-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Observations of Low Frequency Flow-Generated Oceanic Lee Waves and Associated Turbulent Dissipation Over a Tall Ridge</title>
-      <link>https://gunnarvoet.github.io/talk/iugg-2019/</link>
-      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/talk/iugg-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pacific Abyssal Transport and Mixing: Through the Samoan Passage versus around the Manihiki Plateau</title>
-      <link>https://gunnarvoet.github.io/publication/journal-article/pratt-et-al-2019/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/publication/journal-article/pratt-et-al-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research Cruise Iceland 2019</title>
-      <link>https://gunnarvoet.github.io/post/research-cruise-iceland-2019/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/post/research-cruise-iceland-2019/</guid>
-      <description>&lt;p&gt;The goal of this cruise was to deploy three moorings in the Iceland Basin, the part of the North Atlantic south of Iceland. Weather conditions here can be rough which was one of the reasons for picking this region for NISKINe: Strong, changing winds force a strong near-inertial wave field in the ocean. Nevertheless, for our mooring deployment cruise we were hoping for calm conditions to get the moorings safely in the water. Except for a storm delaying our departure in Iceland we had calm and nice conditions and the moorings went in the water smoothly.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-leaving-iceland&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/leaving_iceland.jpg&#34; data-caption=&#34;Leaving Iceland.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/leaving_iceland.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Leaving Iceland.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-attaching-a-chipod-to-the-mooring-during-deployment&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/attaching_chipod.jpg&#34; data-caption=&#34;Attaching a chipod to the mooring during deployment.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/attaching_chipod.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Attaching a chipod to the mooring during deployment.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-late-night-flowquest-programming-session&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/working_late.JPG&#34; data-caption=&#34;Late night Flowquest programming session.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/working_late.JPG&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Late night Flowquest programming session.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-about-to-drop-the-last-anchor&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/final_mooring.JPG&#34; data-caption=&#34;About to drop the last anchor.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/final_mooring.JPG&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    About to drop the last anchor.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-the-science-team&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/group_photo.JPG&#34; data-caption=&#34;The science team.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/group_photo.JPG&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    The science team.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-returning-to-iceland-in-much-calmer-weather-than-when-we-left&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg&#34; data-caption=&#34;Returning to Iceland in much calmer weather than when we left&amp;amp;hellip;&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Returning to Iceland in much calmer weather than when we left&amp;hellip;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-the-old-port-of-reykjavik-with-the-new-opera-and-icelands-research-vessel-arni-friðriksson&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg&#34; data-caption=&#34;The old port of Reykjavik with the new opera and Iceland&amp;amp;rsquo;s research vessel Árni Friðriksson.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    The old port of Reykjavik with the new opera and Iceland&amp;rsquo;s research vessel Árni Friðriksson.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-barbeque-on-the-dock&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/bbq.jpg&#34; data-caption=&#34;Barbeque on the dock.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-iceland-2019/bbq.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Barbeque on the dock.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;Photos © Ally Kawamoto, Nicole Couto&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Near-Inertial Shear and Kinetic Energy in the North Atlantic Experiment - NISKINe</title>
-      <link>https://gunnarvoet.github.io/project/niskine/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/project/niskine/</guid>
-      <description>&lt;p&gt;Variable winds at the ocean surface can force motions inside the ocean that oscillate at frequencies set by the local component of the earth&amp;rsquo;s rotation rate.  Motions at these near-inertial frequencies, so called near-inertial waves, dominate upper ocean shear and contribute to upper ocean turbulence.  Their generation, evolution and decay still remain poorly understood. Recent advances in theory and numerical modeling have pointed to interactions of near-inertial waves with mesoscale and submescoscale features.&lt;/p&gt;
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-schematic-showing-processes-associated-with-near-inertial-generation-dissipation-and-propagation-as-storms-move-along-the-storm-track-thick-white-arrow-a-local-response-occurs-with-frequencies-near-the-local-coriolis-frequency-both-high--and-low-mode-internal-gravity-waves-are-excited-high-modes-propagate-along-curving-characteristics-downward-and-equatorward-the-higher-modes-have-strong-shear-that-results-in-mixing-εz-low-mode-wave-radiation-indicated-in-gray-takes-the-form-of-oscillations-that-propagate-equatorward-upward-characteristics-and-topographic-scattering-have-been-observed-but-the-processes-involved-are-not-completely-understood-from-alford-et-al-2015-modified-from-simmons--alford-2012&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/project/niskine/featured_hu2a35204f8bfe2a2fb0b5d524494f21c4_1070700_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons &amp;amp;amp; Alford (2012).&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://gunnarvoet.github.io/project/niskine/featured_hu2a35204f8bfe2a2fb0b5d524494f21c4_1070700_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2086&#34; height=&#34;1220&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons &amp;amp; Alford (2012).
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;The Office of Naval Research-sponsored Near Inertial Shear and Kinetic Energy in the North Atlantic experiment (NISKINe) aims at investigating generation, evolution and dissipation of near-inertial waves based on a variety of ship-based and autonomous observations, numerical models and theory. Field work is planned for the Iceland Basin in the North Atlantic, an area of intermittent strong storms, an active mesoscale field in the ocean and a region of strong surface currents, potentially feeding submesoscale dynamics.&lt;/p&gt;
-&lt;p&gt;Together with my Scripps colleagues Amy Waterhouse and Matthew Alford, and our collaborators Jim Moum from Oregon State University and Harper Simmons from University of Alaska, I am contributing a moored observational component to the project.  In May 2019 we deployed an array of three moorings, outfitted with ADCPs, McLane Moored Profilers, thermistors &amp;amp; microcats and turbulence-measuring chipods, in the center of the Iceland Basin. The moorings will provide time series of shear and stratification during times of the field experiment, when a lot of autonomous instruments will be deployed around the moorings, and during the spring and fall storm seasons, when the forcing of near-inertial waves is expected to be strongest.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Boundary Layer Turbulence - BLT</title>
-      <link>https://gunnarvoet.github.io/project/blt/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/project/blt/</guid>
-      <description>&lt;p&gt;Turbulence and abyssal upwelling in deep bottom boundary layers. More to come soon!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title> Lee wave observations over a tall ridge </title>
-      <link>https://gunnarvoet.github.io/talk/gordon-conference-mixing-2018/</link>
-      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/talk/gordon-conference-mixing-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Propagation of Intra-Seasonal Tropical Oscillations - PISTON</title>
-      <link>https://gunnarvoet.github.io/project/piston/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/project/piston/</guid>
-      <description>&lt;p&gt;The oceanographic part of the PISTON experiment aims at better understanding three-dimensional oceanic processes that may influence the propagation of multi- scale convective systems in the atmosphere. Together with collaborators Matthew Alford (Scripps) and Jim Moum (OSU) I deployed two moorings in the tropical western North Pacific on the Palau-Kyushy Ridge from 2018 to 2019. The moorings provide data on ocean velocity, hydrography and turbulence over most of the water column and up into the mixed layer. The measurements will help to constrain heat fluxes in the upper ocean to better understand the exchange of heat with the atmosphere.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Research Cruise Palau 2017</title>
-      <link>https://gunnarvoet.github.io/post/research-cruise-rr1708/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/post/research-cruise-rr1708/</guid>
-      <description>&lt;p&gt;This was our second and last FLEAT (Flow Encountering Abrupt Topography) cruise and my first time as chief scientist. We successfully recovered five moorings in the vicinity of the island group Palau. In addition, we conducted towed mesurements over submarine ridge along the island of Yap to observe lee waves generated by the mean flow.&lt;/p&gt;
-&lt;p&gt;The towyos over different parts of the ridge, at different depths, showed strong vertical oscillations of isopycnals and enhanced levels of turbulent dissipation. At each site we repeated the measurements several times over a tidal cycle to be able to discern tidally and mean-flow-generated lee waves. The figure below shows measurements from the deepest lee wave survey north of Yap. Upper panels show stratification and isopycnals, the lower panels turbulent dissipation as measured with chipods.&lt;/p&gt;
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-repeat-towyo-sections-over-yap-ridge-upper-panels-show-stratification-colors-and-density-contours-lower-panels-show-turbulent-dissipation&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/towyo3.png&#34; data-caption=&#34;Repeat towyo sections over Yap Ridge. Upper panels show stratification (colors) and density (contours). Lower panels show turbulent dissipation.&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/towyo3.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Repeat towyo sections over Yap Ridge. Upper panels show stratification (colors) and density (contours). Lower panels show turbulent dissipation.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;For more details take a look at the 
-&lt;a href=&#34;https://gunnarvoet.github.io/pdf/cruise_report_rr1708.pdf&#34;&gt;cruise report&lt;/a&gt;. Below are a few impressions from the cruise.&lt;/p&gt;
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-rv-revelle-anchored-near-the-dock-in-palau&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/revelle_anchored.jpg&#34; data-caption=&#34;R/V Revelle anchored near the dock in Palau&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/revelle_anchored.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    R/V Revelle anchored near the dock in Palau
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-recovering-a-mclane-moored-profiler&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/mp_recovery.jpg&#34; data-caption=&#34;Recovering a McLane Moored Profiler&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/mp_recovery.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Recovering a McLane Moored Profiler
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-barnacle-growth-on-the-mooring-line&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/barnacles.jpg&#34; data-caption=&#34;Barnacle growth on the mooring line&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/barnacles.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Barnacle growth on the mooring line
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-underway-to-the-next-mooring-site&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/steaming.jpg&#34; data-caption=&#34;Underway to the next mooring site&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/steaming.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Underway to the next mooring site
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-rv-revelle-near-velasco-reef&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/flyover2.jpg&#34; data-caption=&#34;R/V Revelle near Velasco Reef&#34;&gt;
-
-
-  &lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1708/flyover2.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    R/V Revelle near Velasco Reef
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;Photos © Kirstin Fitzmorris, Conrad Luecke, Derek Young, Mika Siegelman, Pat Collins&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Abyssal Turbulent Mixing in the Samoan Passage</title>
-      <link>https://gunnarvoet.github.io/talk/liege-2017/</link>
-      <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/talk/liege-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hydraulic Processes in the Samoan Passage</title>
-      <link>https://gunnarvoet.github.io/project/hyprsp/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/project/hyprsp/</guid>
-      <description>&lt;p&gt;We just got funded by NSF to study abyssal hydraulic processes in the Samoan Passage. The project will heavily build upon data collected in the 
-&lt;a href=&#34;https://gunnarvoet.github.io/project/samoan-passage/&#34;&gt;Samoan Passage Abyssal Mixing Experiment&lt;/a&gt;. In addition, we are planning on running a suite of numerical models spanning from idealized 2D to high-resolution 3D runs that will be tuned to observed turbulent mixing. This dataset will help us identify and study a number of processes that are loosely termed &lt;em&gt;hydraulic&lt;/em&gt; - they arise when bottom topography restricts the free flow of the bottom current. Hydraulic processes may cause and alter turbulent mixing of the abyssal current with ambient water and impose restrictions on the maximum flow through the Samoan Passage.&lt;/p&gt;
-&lt;p&gt;Present theory is unable to account for a number of hydraulic aspects that let the flow through Samoan Passage stand out. Among these are flow through connecting channels, flow through channels with two sill configurations and flow across sills with complex bathymetry. Getting a handle on these processes will be important for better understanding the large scale circulation of the Pacific Ocean as the Samoan Passage is the major supplier for deep water renewal in the North Pacific. Moreover, these configurations are by no means unique to the flow through Samoan Passage and a better knowledge of hydraulic processes here will inform research of the flow at many other canyons and fracture zones of the world&amp;rsquo;s oceans.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Warming and Weakening of the flow through Samoan Passage</title>
-      <link>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-warming-weakening/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-warming-weakening/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research Cruise Palau 2016</title>
-      <link>https://gunnarvoet.github.io/post/research-cruise-rr1607/</link>
-      <pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/post/research-cruise-rr1607/</guid>
-      <description>&lt;p&gt;We spent three weeks on R/V Roger Revelle to study flow-topography interactions in the vicinity of Palau in the tropical North Pacific.&lt;/p&gt;
-&lt;p&gt;This was my first time as a co-PI on a research cruise. Together with leading the nightwatch and responsibility for six mooring deployments and one mooring recovery this turned out to be a very busy cruise. It was very rewarding as we did a ton of interesting science though!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/mooring_deployment.jpg&#34; alt=&#34;mooring deployment&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/cellphone_island.jpg&#34; alt=&#34;cellphone island&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/rain.jpg&#34; alt=&#34;rain&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-rr1607/revelle_blue.jpg&#34; alt=&#34;revelle blue&#34;&gt;&lt;/p&gt;
-&lt;p&gt;All photos © Tyler Hughen.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title> The vertical energy flux of lee waves generated by flow over topography in the Samoan Passage</title>
-      <link>https://gunnarvoet.github.io/talk/ocean-sciences-2016/</link>
-      <pubDate>Mon, 22 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/talk/ocean-sciences-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research Cruise Beaufort Sea 2015</title>
-      <link>https://gunnarvoet.github.io/post/research-cruise-arctic-2015/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/post/research-cruise-arctic-2015/</guid>
-      <description>&lt;p&gt;Late August and September 2015 in the Beaufort Sea on R/V Sikuliaq to study how upper ocean turbulent mixing will change under ice-free conditions in a warmer climate. Increased turbulent mixing may bring up warmer Atlantic water from beneath the cold surface layer causing a positive feedback on Arctic sea ice retreat.&lt;/p&gt;
-&lt;p&gt;We deployed a mooring in the central Beaufort Sea and carried out shipboard measurements with SWIMS and MMP.&lt;/p&gt;
-&lt;p&gt;For more info see our 
-&lt;a href=&#34;https://scripps.ucsd.edu/projects/arcticmix/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cruise blog&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/sikuliaq.jpg&#34; alt=&#34;r/v sikuliaq&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/iceskin.jpg&#34; alt=&#34;iceskin&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/coffee.jpg&#34; alt=&#34;coffee&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/looking_back.jpg&#34; alt=&#34;looking back&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-arctic-2015/workboat.jpg&#34; alt=&#34;workboat&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Photos © Greg Wagner, Thomas Moore, Algot Peterson&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Flow Encountering Abrupt Topography - FLEAT</title>
-      <link>https://gunnarvoet.github.io/project/fleat/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/project/fleat/</guid>
-      <description>&lt;p&gt;The ONR-funded project FLEAT aims at studying interactions of mean-flow and topography in the vicinity of Palau. We try to answer questions like &lt;em&gt;how are energy and momentum of mean and meso-scale flow affected by interactions with bathymetry?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The vicinity of Palau in the tropical North Pacific provides an ideal natural laboratory - steep topography and strong currents make up for exciting experiment sites. In June 2016 we deployed moorings and carried out shipboard measurements with various instruments to study the generation of lee waves and lee vortices as the flow interacted with the northern end of Palau.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title> Abyssal volume transport through the Samoan Passage</title>
-      <link>https://gunnarvoet.github.io/talk/iugg-2015/</link>
-      <pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/talk/iugg-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research Cruises Tasman Sea 2015</title>
-      <link>https://gunnarvoet.github.io/post/research-cruise-ttide-2015/</link>
-      <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/post/research-cruise-ttide-2015/</guid>
-      <description>&lt;p&gt;In January and March 2015 I went on two research cruises on R/V Roger Revelle to the Tasman Sea. I oversaw technical details, logistics, deployments and recoveries of the 15 TTIDE moorings, some of them full ocean depth down to 4000 m. The TTIDE project aimed at understanding the dissipation and reflection of internal tides impinging on a continental shelf. Working close to the Southern Ocean turned out to be quite challenging with strong winds and high seas for most of the time.&lt;/p&gt;
-&lt;p&gt;For more info see the 
-&lt;a href=&#34;https://scripps.ucsd.edu/projects/ttide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;project website&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/grappling_hook.jpg&#34; alt=&#34;grappling hook&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/hopeful.jpg&#34; alt=&#34;hopeful&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/lab.jpg&#34; alt=&#34;lab&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/mp.jpg&#34; alt=&#34;mp&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/storm.jpg&#34; alt=&#34;storm&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/tasmania.jpg&#34; alt=&#34;tasmania&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/team.jpg&#34; alt=&#34;team&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gunnarvoet.github.io/img/cruise-ttide/sky.jpg&#34; alt=&#34;sky&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Photos © Thomas Moore&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Pathways, Volume Transport and Mixing of Abyssal Water in the Samoan Passage</title>
-      <link>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-pathways-mixing/</link>
-      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-pathways-mixing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Volume Transports and Turbulent Mixing in the Samoan Passage</title>
-      <link>https://gunnarvoet.github.io/talk/ocean-sciences-2014/</link>
-      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/talk/ocean-sciences-2014/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Turbulent mixing and hydraulic control of abyssal water in the Samoan Passage</title>
-      <link>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-mixing/</link>
-      <pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-mixing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Samoan Passage Abyssal Mixing Experiment</title>
-      <link>https://gunnarvoet.github.io/project/samoan-passage/</link>
-      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/project/samoan-passage/</guid>
-      <description>&lt;p&gt;The Samoan Passage is the major gateway for deep water renewal in the North Pacific where virtually no bottom waters are formed locally. About 6 Sv (1 Sv $\equiv 1 \times 10^6$ m$^3$ s$^{-1}$), more than half of the abyssal northward limb of the Pacific Meridional Overturning Circulation (MOC), flows through the Samoan Passage while smaller amounts flow across Robbie Ridge to the west and around the Manihiki Plateau to the east. As the bottom current is forced through the narrow channels and across the sills of the Samoan Passage it is strongly modified by turbulent mixing.&lt;/p&gt;
-&lt;p&gt;In our recent NSF-funded &lt;em&gt;Samoan Passage Abyssal Mixing Experiment&lt;/em&gt; we gathered moored and shipboard measurements to re-assess the long term volume transport through the Samoan Passage and to study flow pathways and turbulent mixing processes in the Samoan Passage. Moored long-term observations of the abyssal flow through the Samoan Passage, when compared to historical measurements, showed a slightly weakened volume transport by about 0.6 Sv or 10% and a significant warming of $1\times10^{-3}$ K/yr over the past two decades. Shipboard CTD/LADCP sections from a cruise in 2012 revealed the flow pathways through the Samoan Passage with the unanticipated result of about half the volume transport going through shallower channels to the west while the other, denser, half goes through the main eastern channel.   Topographic sills along both pathways lead to hydraulic response and strong associated acceleration and mixing of the flow.   Detailed measurements at the primary sill of the eastern channelw showed flow acceleration to more than 0.5 m/s.  The first direct turbulence measurements with an autonomous Vertical Microstructure Profiler in the Samoan Passage revealed 1000 to 10,000 times stronger turbulence than oceanographic background levels.   Heat-budget derived estimates of turbulent mixing levels were 2 to 6 times higher than area-averaged mixing levels in the Samoan Passage, pointing to the importance of mixing concentrated at so-called hot-spots.   These mixing hot-spots are located downstream of the sills, where the flow, likely hydraulically controlled, accelerates, and hydraulic jumps with the highest mixing levels in the region were observed.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The mid-depth circulation of the Nordic Seas derived from profiling float observations </title>
-      <link>https://gunnarvoet.github.io/publication/journal-article/nordic-seas-circulation/</link>
-      <pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/publication/journal-article/nordic-seas-circulation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Entrainment in the Denmark Strait overflow plume by meso-scale eddies</title>
-      <link>https://gunnarvoet.github.io/publication/journal-article/denmark-strait-entrainment/</link>
-      <pubDate>Mon, 01 Mar 2010 00:00:00 +0000</pubDate>
-      <guid>https://gunnarvoet.github.io/publication/journal-article/denmark-strait-entrainment/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>
+&lt;!--
+&lt;video controls >
+&lt;source src="watchmagic_example.mp4" type="video/mp4">
+&lt;/video> --></description></item><item><title>Topographic Form Drag on Tides and Low-Frequency Flow: Observations of Nonlinear Lee Waves over a Tall Submarine Ridge near Palau</title><link>https://gunnarvoet.github.io/publication/journal-article/fleat-lee-waves/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/publication/journal-article/fleat-lee-waves/</guid><description/></item><item><title>BLT Test Moorings Recovered</title><link>https://gunnarvoet.github.io/post/blt-pilot-recovery/</link><pubDate>Wed, 06 Nov 2019 20:23:56 -0800</pubDate><guid>https://gunnarvoet.github.io/post/blt-pilot-recovery/</guid><description>&lt;p>Earlier this year in September we deployed two moorings in our backyard in the San Diego Trough. The goal of the mooring deployments was twofold: First, the BLT team wanted to practice deploying and recovering a mooring system we are borrowing from our colleague Hans van Haren from
+&lt;a href="https://www.nioz.nl" target="_blank" rel="noopener">NIOZ&lt;/a> in the Netherlands. The NIOZ mooring sports a large number of in-house-built high-precision temperature sensors with their clocks synched via an inductive pulse. Their measurements provide information on ocean stratification at high frequencies and high vertical resolution and can be used to study turbulence. Second, we wanted to test a new design for a MAVS mooring. MAVS are acoustic travel time current meters that, paired with high precision thermistors, can be used to directly measure buoyancy fluxes. The test deployment of the MAVS will tell us whether the mooring is designed stable enough to allow for the high precision measurements needed to directly observe buoyancy fluxes. Eventually, both of these mooring types will be deployed during the main experimental phase of BLT in the Rockall Trough in summer 2020.&lt;/p>
+&lt;p>Today, we successfully recovered both moorings and brought all instruments safely back on board. The weather conditions offshore were perfect for smooth mooring recoveries from the R/V Sproul, one of the smaller ships of the research fleet based in San Diego. Data analysis in the upcoming days will tell us how the moorings performed and whether adjustments are needed before the moorings will be deployed in the Rockall Trough. An exciting byproduct of the test deployment will be information on near bottom flow conditions, stratification, turbulence and buoyancy fluxes in the San Diego Trough, a region so close to Scripps Institution of Oceanography and yet not very well explored.&lt;/p>
+&lt;p>
+&lt;figure id="figure-mooring-locations-in-the-san-diego-trough">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/blt-pilot/final_mooring_locations.png" data-caption="Mooring locations in the San Diego Trough.">
+&lt;img src="https://gunnarvoet.github.io/img/blt-pilot/final_mooring_locations.png" alt="" >
+&lt;/a>
+&lt;figcaption>
+Mooring locations in the San Diego Trough.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-spencer-and-jeremiah-getting-the-ctd-ready">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/blt-pilot/ctd.jpg" data-caption="Spencer and Jeremiah getting the CTD ready.">
+&lt;img src="https://gunnarvoet.github.io/img/blt-pilot/ctd.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Spencer and Jeremiah getting the CTD ready.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-spencer-pinging-on-a-mooring">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/blt-pilot/spencer-release.jpg" data-caption="Spencer pinging on a mooring.">
+&lt;img src="https://gunnarvoet.github.io/img/blt-pilot/spencer-release.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Spencer pinging on a mooring.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-spencer-and-brian">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/blt-pilot/spencer-and-brian.jpg" data-caption="Spencer and Brian.">
+&lt;img src="https://gunnarvoet.github.io/img/blt-pilot/spencer-and-brian.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Spencer and Brian.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-bethan-and-brian-winding-the-thermistor-chain-onto-the-tse-winch">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/blt-pilot/thermistors.jpg" data-caption="Bethan and Brian winding the thermistor chain onto the TSE winch.">
+&lt;img src="https://gunnarvoet.github.io/img/blt-pilot/thermistors.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Bethan and Brian winding the thermistor chain onto the TSE winch.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-the-whoi-team-inspecting-the-recovered-mavs-instruments">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/blt-pilot/mavs.jpg" data-caption="The WHOI team inspecting the recovered MAVS instruments.">
+&lt;img src="https://gunnarvoet.github.io/img/blt-pilot/mavs.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+The WHOI team inspecting the recovered MAVS instruments.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-bethan-on-the-tse-winch">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/blt-pilot/bethan.jpg" data-caption="Bethan on the TSE winch.">
+&lt;img src="https://gunnarvoet.github.io/img/blt-pilot/bethan.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Bethan on the TSE winch.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-jay-preparing-dinner">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/blt-pilot/jjay.jpg" data-caption="Jay preparing dinner.">
+&lt;img src="https://gunnarvoet.github.io/img/blt-pilot/jjay.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Jay preparing dinner.
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>A Step Beyond</title><link>https://gunnarvoet.github.io/post/a-step-beyond/</link><pubDate>Tue, 29 Oct 2019 22:07:26 -0700</pubDate><guid>https://gunnarvoet.github.io/post/a-step-beyond/</guid><description>&lt;p>Today I had the opportunity to participate in an unusual class setting: At
+&lt;a href="https://a-step-beyond.org/" target="_blank" rel="noopener">A Step Beyond&lt;/a> in Escondido, CA, I talked to 5th and 6th graders about some of the observational methods we use in physical oceanography. In between the lessons, the students, together with their dance teacher Roxanne Rojas de Blanco, came up with dance moves to transform what they had just learned into a choreography. With a lot of creative energy the students danced ships in stormy seas and subsurface moorings knocked over by strong currents. Many thanks to Roxanne and my colleague Larry Pratt from WHOI for organizing this workshop and to the National Science Foundation for financial support through our Samoan Passage research project!&lt;/p>
+&lt;figure id="figure-larry-pratt-explaining-the-origins-of-water-on-earth-to-the-class">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/post/a-step-beyond/larry_hub93307cc1f30c6a9f5062110219cd2ff_1216253_2000x2000_fit_q90_lanczos.jpg" data-caption="Larry Pratt explaining the origins of water on earth to the class.">
+&lt;img data-src="https://gunnarvoet.github.io/post/a-step-beyond/larry_hub93307cc1f30c6a9f5062110219cd2ff_1216253_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="3148" height="2159">
+&lt;/a>
+&lt;figcaption>
+Larry Pratt explaining the origins of water on earth to the class.
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Persistent Turbulence in the Samoan Passage</title><link>https://gunnarvoet.github.io/publication/journal-article/cusack-etal-2019/</link><pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/publication/journal-article/cusack-etal-2019/</guid><description/></item><item><title> Observations of Low Frequency Flow-Generated Oceanic Lee Waves and Associated Turbulent Dissipation Over a Tall Ridge</title><link>https://gunnarvoet.github.io/talk/iugg-2019/</link><pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/talk/iugg-2019/</guid><description/></item><item><title>Pacific Abyssal Transport and Mixing: Through the Samoan Passage versus around the Manihiki Plateau</title><link>https://gunnarvoet.github.io/publication/journal-article/pratt-et-al-2019/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/publication/journal-article/pratt-et-al-2019/</guid><description/></item><item><title>Research Cruise Iceland 2019</title><link>https://gunnarvoet.github.io/post/research-cruise-iceland-2019/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/post/research-cruise-iceland-2019/</guid><description>&lt;p>The goal of this cruise was to deploy three moorings in the Iceland Basin, the part of the North Atlantic south of Iceland. Weather conditions here can be rough which was one of the reasons for picking this region for NISKINe: Strong, changing winds force a strong near-inertial wave field in the ocean. Nevertheless, for our mooring deployment cruise we were hoping for calm conditions to get the moorings safely in the water. Except for a storm delaying our departure in Iceland we had calm and nice conditions and the moorings went in the water smoothly.&lt;/p>
+&lt;p>
+&lt;figure id="figure-leaving-iceland">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/leaving_iceland.jpg" data-caption="Leaving Iceland.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/leaving_iceland.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Leaving Iceland.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-attaching-a-chipod-to-the-mooring-during-deployment">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/attaching_chipod.jpg" data-caption="Attaching a chipod to the mooring during deployment.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/attaching_chipod.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Attaching a chipod to the mooring during deployment.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-late-night-flowquest-programming-session">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/working_late.JPG" data-caption="Late night Flowquest programming session.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/working_late.JPG" alt="" >
+&lt;/a>
+&lt;figcaption>
+Late night Flowquest programming session.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-about-to-drop-the-last-anchor">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/final_mooring.JPG" data-caption="About to drop the last anchor.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/final_mooring.JPG" alt="" >
+&lt;/a>
+&lt;figcaption>
+About to drop the last anchor.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-the-science-team">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/group_photo.JPG" data-caption="The science team.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/group_photo.JPG" alt="" >
+&lt;/a>
+&lt;figcaption>
+The science team.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-returning-to-iceland-in-much-calmer-weather-than-when-we-left">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg" data-caption="Returning to Iceland in much calmer weather than when we left&amp;amp;hellip;">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/return.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Returning to Iceland in much calmer weather than when we left&amp;hellip;
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-the-old-port-of-reykjavik-with-the-new-opera-and-icelands-research-vessel-arni-friðriksson">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg" data-caption="The old port of Reykjavik with the new opera and Iceland&amp;amp;rsquo;s research vessel Árni Friðriksson.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/reykjavik.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+The old port of Reykjavik with the new opera and Iceland&amp;rsquo;s research vessel Árni Friðriksson.
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-barbeque-on-the-dock">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-iceland-2019/bbq.jpg" data-caption="Barbeque on the dock.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-iceland-2019/bbq.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Barbeque on the dock.
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Photos © Ally Kawamoto, Nicole Couto&lt;/p></description></item><item><title>Near-Inertial Shear and Kinetic Energy in the North Atlantic Experiment - NISKINe</title><link>https://gunnarvoet.github.io/project/niskine/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/project/niskine/</guid><description>&lt;p>Variable winds at the ocean surface can force motions inside the ocean that oscillate at frequencies set by the local component of the earth&amp;rsquo;s rotation rate. Motions at these near-inertial frequencies, so called near-inertial waves, dominate upper ocean shear and contribute to upper ocean turbulence. Their generation, evolution and decay still remain poorly understood. Recent advances in theory and numerical modeling have pointed to interactions of near-inertial waves with mesoscale and submescoscale features.&lt;/p>
+&lt;figure id="figure-schematic-showing-processes-associated-with-near-inertial-generation-dissipation-and-propagation-as-storms-move-along-the-storm-track-thick-white-arrow-a-local-response-occurs-with-frequencies-near-the-local-coriolis-frequency-both-high--and-low-mode-internal-gravity-waves-are-excited-high-modes-propagate-along-curving-characteristics-downward-and-equatorward-the-higher-modes-have-strong-shear-that-results-in-mixing-εz-low-mode-wave-radiation-indicated-in-gray-takes-the-form-of-oscillations-that-propagate-equatorward-upward-characteristics-and-topographic-scattering-have-been-observed-but-the-processes-involved-are-not-completely-understood-from-alford-et-al-2015-modified-from-simmons--alford-2012">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/project/niskine/featured_hu2a35204f8bfe2a2fb0b5d524494f21c4_1070700_2000x2000_fit_lanczos_3.png" data-caption="Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons &amp;amp;amp; Alford (2012).">
+&lt;img data-src="https://gunnarvoet.github.io/project/niskine/featured_hu2a35204f8bfe2a2fb0b5d524494f21c4_1070700_2000x2000_fit_lanczos_3.png" class="lazyload" alt="" width="2086" height="1220">
+&lt;/a>
+&lt;figcaption>
+Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons &amp;amp; Alford (2012).
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>The Office of Naval Research-sponsored Near Inertial Shear and Kinetic Energy in the North Atlantic experiment (NISKINe) aims at investigating generation, evolution and dissipation of near-inertial waves based on a variety of ship-based and autonomous observations, numerical models and theory. Field work is planned for the Iceland Basin in the North Atlantic, an area of intermittent strong storms, an active mesoscale field in the ocean and a region of strong surface currents, potentially feeding submesoscale dynamics.&lt;/p>
+&lt;p>Together with my Scripps colleagues Amy Waterhouse and Matthew Alford, and our collaborators Jim Moum from Oregon State University and Harper Simmons from University of Alaska, I am contributing a moored observational component to the project. In May 2019 we deployed an array of three moorings, outfitted with ADCPs, McLane Moored Profilers, thermistors &amp;amp; microcats and turbulence-measuring chipods, in the center of the Iceland Basin. The moorings will provide time series of shear and stratification during times of the field experiment, when a lot of autonomous instruments will be deployed around the moorings, and during the spring and fall storm seasons, when the forcing of near-inertial waves is expected to be strongest.&lt;/p></description></item><item><title>Boundary Layer Turbulence - BLT</title><link>https://gunnarvoet.github.io/project/blt/</link><pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/project/blt/</guid><description>&lt;p>Turbulence and abyssal upwelling in deep bottom boundary layers. More to come soon!&lt;/p></description></item><item><title> Lee wave observations over a tall ridge</title><link>https://gunnarvoet.github.io/talk/gordon-conference-mixing-2018/</link><pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/talk/gordon-conference-mixing-2018/</guid><description/></item><item><title>Propagation of Intra-Seasonal Tropical Oscillations - PISTON</title><link>https://gunnarvoet.github.io/project/piston/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/project/piston/</guid><description>&lt;p>The oceanographic part of the PISTON experiment aims at better understanding three-dimensional oceanic processes that may influence the propagation of multi- scale convective systems in the atmosphere. Together with collaborators Matthew Alford (Scripps) and Jim Moum (OSU) I deployed two moorings in the tropical western North Pacific on the Palau-Kyushy Ridge from 2018 to 2019. The moorings provide data on ocean velocity, hydrography and turbulence over most of the water column and up into the mixed layer. The measurements will help to constrain heat fluxes in the upper ocean to better understand the exchange of heat with the atmosphere.&lt;/p></description></item><item><title>Research Cruise Palau 2017</title><link>https://gunnarvoet.github.io/post/research-cruise-rr1708/</link><pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/post/research-cruise-rr1708/</guid><description>&lt;p>This was our second and last FLEAT (Flow Encountering Abrupt Topography) cruise and my first time as chief scientist. We successfully recovered five moorings in the vicinity of the island group Palau. In addition, we conducted towed mesurements over submarine ridge along the island of Yap to observe lee waves generated by the mean flow.&lt;/p>
+&lt;p>The towyos over different parts of the ridge, at different depths, showed strong vertical oscillations of isopycnals and enhanced levels of turbulent dissipation. At each site we repeated the measurements several times over a tidal cycle to be able to discern tidally and mean-flow-generated lee waves. The figure below shows measurements from the deepest lee wave survey north of Yap. Upper panels show stratification and isopycnals, the lower panels turbulent dissipation as measured with chipods.&lt;/p>
+&lt;figure id="figure-repeat-towyo-sections-over-yap-ridge-upper-panels-show-stratification-colors-and-density-contours-lower-panels-show-turbulent-dissipation">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-rr1708/towyo3.png" data-caption="Repeat towyo sections over Yap Ridge. Upper panels show stratification (colors) and density (contours). Lower panels show turbulent dissipation.">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-rr1708/towyo3.png" alt="" >
+&lt;/a>
+&lt;figcaption>
+Repeat towyo sections over Yap Ridge. Upper panels show stratification (colors) and density (contours). Lower panels show turbulent dissipation.
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>For more details take a look at the
+&lt;a href="https://gunnarvoet.github.io/pdf/cruise_report_rr1708.pdf">cruise report&lt;/a>. Below are a few impressions from the cruise.&lt;/p>
+&lt;figure id="figure-rv-revelle-anchored-near-the-dock-in-palau">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-rr1708/revelle_anchored.jpg" data-caption="R/V Revelle anchored near the dock in Palau">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-rr1708/revelle_anchored.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+R/V Revelle anchored near the dock in Palau
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-recovering-a-mclane-moored-profiler">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-rr1708/mp_recovery.jpg" data-caption="Recovering a McLane Moored Profiler">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-rr1708/mp_recovery.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Recovering a McLane Moored Profiler
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-barnacle-growth-on-the-mooring-line">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-rr1708/barnacles.jpg" data-caption="Barnacle growth on the mooring line">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-rr1708/barnacles.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Barnacle growth on the mooring line
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-underway-to-the-next-mooring-site">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-rr1708/steaming.jpg" data-caption="Underway to the next mooring site">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-rr1708/steaming.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Underway to the next mooring site
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-rv-revelle-near-velasco-reef">
+&lt;a data-fancybox="" href="https://gunnarvoet.github.io/img/cruise-rr1708/flyover2.jpg" data-caption="R/V Revelle near Velasco Reef">
+&lt;img src="https://gunnarvoet.github.io/img/cruise-rr1708/flyover2.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+R/V Revelle near Velasco Reef
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Photos © Kirstin Fitzmorris, Conrad Luecke, Derek Young, Mika Siegelman, Pat Collins&lt;/p></description></item><item><title>Abyssal Turbulent Mixing in the Samoan Passage</title><link>https://gunnarvoet.github.io/talk/liege-2017/</link><pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/talk/liege-2017/</guid><description/></item><item><title>Hydraulic Processes in the Samoan Passage</title><link>https://gunnarvoet.github.io/project/hyprsp/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/project/hyprsp/</guid><description>&lt;p>We just got funded by NSF to study abyssal hydraulic processes in the Samoan Passage. The project will heavily build upon data collected in the
+&lt;a href="https://gunnarvoet.github.io/project/samoan-passage/">Samoan Passage Abyssal Mixing Experiment&lt;/a>. In addition, we are planning on running a suite of numerical models spanning from idealized 2D to high-resolution 3D runs that will be tuned to observed turbulent mixing. This dataset will help us identify and study a number of processes that are loosely termed &lt;em>hydraulic&lt;/em> - they arise when bottom topography restricts the free flow of the bottom current. Hydraulic processes may cause and alter turbulent mixing of the abyssal current with ambient water and impose restrictions on the maximum flow through the Samoan Passage.&lt;/p>
+&lt;p>Present theory is unable to account for a number of hydraulic aspects that let the flow through Samoan Passage stand out. Among these are flow through connecting channels, flow through channels with two sill configurations and flow across sills with complex bathymetry. Getting a handle on these processes will be important for better understanding the large scale circulation of the Pacific Ocean as the Samoan Passage is the major supplier for deep water renewal in the North Pacific. Moreover, these configurations are by no means unique to the flow through Samoan Passage and a better knowledge of hydraulic processes here will inform research of the flow at many other canyons and fracture zones of the world&amp;rsquo;s oceans.&lt;/p></description></item><item><title>Warming and Weakening of the flow through Samoan Passage</title><link>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-warming-weakening/</link><pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-warming-weakening/</guid><description/></item><item><title>Research Cruise Palau 2016</title><link>https://gunnarvoet.github.io/post/research-cruise-rr1607/</link><pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/post/research-cruise-rr1607/</guid><description>&lt;p>We spent three weeks on R/V Roger Revelle to study flow-topography interactions in the vicinity of Palau in the tropical North Pacific.&lt;/p>
+&lt;p>This was my first time as a co-PI on a research cruise. Together with leading the nightwatch and responsibility for six mooring deployments and one mooring recovery this turned out to be a very busy cruise. It was very rewarding as we did a ton of interesting science though!&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-rr1607/mooring_deployment.jpg" alt="mooring deployment">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-rr1607/cellphone_island.jpg" alt="cellphone island">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-rr1607/rain.jpg" alt="rain">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-rr1607/revelle_blue.jpg" alt="revelle blue">&lt;/p>
+&lt;p>All photos © Tyler Hughen.&lt;/p></description></item><item><title> The vertical energy flux of lee waves generated by flow over topography in the Samoan Passage</title><link>https://gunnarvoet.github.io/talk/ocean-sciences-2016/</link><pubDate>Mon, 22 Feb 2016 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/talk/ocean-sciences-2016/</guid><description/></item><item><title>Research Cruise Beaufort Sea 2015</title><link>https://gunnarvoet.github.io/post/research-cruise-arctic-2015/</link><pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/post/research-cruise-arctic-2015/</guid><description>&lt;p>Late August and September 2015 in the Beaufort Sea on R/V Sikuliaq to study how upper ocean turbulent mixing will change under ice-free conditions in a warmer climate. Increased turbulent mixing may bring up warmer Atlantic water from beneath the cold surface layer causing a positive feedback on Arctic sea ice retreat.&lt;/p>
+&lt;p>We deployed a mooring in the central Beaufort Sea and carried out shipboard measurements with SWIMS and MMP.&lt;/p>
+&lt;p>For more info see our
+&lt;a href="https://scripps.ucsd.edu/projects/arcticmix/" target="_blank" rel="noopener">cruise blog&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-arctic-2015/sikuliaq.jpg" alt="r/v sikuliaq">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-arctic-2015/iceskin.jpg" alt="iceskin">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-arctic-2015/coffee.jpg" alt="coffee">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-arctic-2015/looking_back.jpg" alt="looking back">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-arctic-2015/workboat.jpg" alt="workboat">&lt;/p>
+&lt;p>Photos © Greg Wagner, Thomas Moore, Algot Peterson&lt;/p></description></item><item><title>Flow Encountering Abrupt Topography - FLEAT</title><link>https://gunnarvoet.github.io/project/fleat/</link><pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/project/fleat/</guid><description>&lt;p>The ONR-funded project FLEAT aims at studying interactions of mean-flow and topography in the vicinity of Palau. We try to answer questions like &lt;em>how are energy and momentum of mean and meso-scale flow affected by interactions with bathymetry?&lt;/em>&lt;/p>
+&lt;p>The vicinity of Palau in the tropical North Pacific provides an ideal natural laboratory - steep topography and strong currents make up for exciting experiment sites. In June 2016 we deployed moorings and carried out shipboard measurements with various instruments to study the generation of lee waves and lee vortices as the flow interacted with the northern end of Palau.&lt;/p></description></item><item><title> Abyssal volume transport through the Samoan Passage</title><link>https://gunnarvoet.github.io/talk/iugg-2015/</link><pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/talk/iugg-2015/</guid><description/></item><item><title>Research Cruises Tasman Sea 2015</title><link>https://gunnarvoet.github.io/post/research-cruise-ttide-2015/</link><pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/post/research-cruise-ttide-2015/</guid><description>&lt;p>In January and March 2015 I went on two research cruises on R/V Roger Revelle to the Tasman Sea. I oversaw technical details, logistics, deployments and recoveries of the 15 TTIDE moorings, some of them full ocean depth down to 4000 m. The TTIDE project aimed at understanding the dissipation and reflection of internal tides impinging on a continental shelf. Working close to the Southern Ocean turned out to be quite challenging with strong winds and high seas for most of the time.&lt;/p>
+&lt;p>For more info see the
+&lt;a href="https://scripps.ucsd.edu/projects/ttide/" target="_blank" rel="noopener">project website&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-ttide/grappling_hook.jpg" alt="grappling hook">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-ttide/hopeful.jpg" alt="hopeful">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-ttide/lab.jpg" alt="lab">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-ttide/mp.jpg" alt="mp">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-ttide/storm.jpg" alt="storm">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-ttide/tasmania.jpg" alt="tasmania">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-ttide/team.jpg" alt="team">&lt;/p>
+&lt;p>&lt;img src="https://gunnarvoet.github.io/img/cruise-ttide/sky.jpg" alt="sky">&lt;/p>
+&lt;p>Photos © Thomas Moore&lt;/p></description></item><item><title>Pathways, Volume Transport and Mixing of Abyssal Water in the Samoan Passage</title><link>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-pathways-mixing/</link><pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-pathways-mixing/</guid><description/></item><item><title> Volume Transports and Turbulent Mixing in the Samoan Passage</title><link>https://gunnarvoet.github.io/talk/ocean-sciences-2014/</link><pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/talk/ocean-sciences-2014/</guid><description/></item><item><title>Turbulent mixing and hydraulic control of abyssal water in the Samoan Passage</title><link>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-mixing/</link><pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/publication/journal-article/samoan-passage-mixing/</guid><description/></item><item><title>Samoan Passage Abyssal Mixing Experiment</title><link>https://gunnarvoet.github.io/project/samoan-passage/</link><pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/project/samoan-passage/</guid><description>&lt;p>The Samoan Passage is the major gateway for deep water renewal in the North Pacific where virtually no bottom waters are formed locally. About 6 Sv (1 Sv $\equiv 1 \times 10^6$ m$^3$ s$^{-1}$), more than half of the abyssal northward limb of the Pacific Meridional Overturning Circulation (MOC), flows through the Samoan Passage while smaller amounts flow across Robbie Ridge to the west and around the Manihiki Plateau to the east. As the bottom current is forced through the narrow channels and across the sills of the Samoan Passage it is strongly modified by turbulent mixing.&lt;/p>
+&lt;p>In our recent NSF-funded &lt;em>Samoan Passage Abyssal Mixing Experiment&lt;/em> we gathered moored and shipboard measurements to re-assess the long term volume transport through the Samoan Passage and to study flow pathways and turbulent mixing processes in the Samoan Passage. Moored long-term observations of the abyssal flow through the Samoan Passage, when compared to historical measurements, showed a slightly weakened volume transport by about 0.6 Sv or 10% and a significant warming of $1\times10^{-3}$ K/yr over the past two decades. Shipboard CTD/LADCP sections from a cruise in 2012 revealed the flow pathways through the Samoan Passage with the unanticipated result of about half the volume transport going through shallower channels to the west while the other, denser, half goes through the main eastern channel. Topographic sills along both pathways lead to hydraulic response and strong associated acceleration and mixing of the flow. Detailed measurements at the primary sill of the eastern channelw showed flow acceleration to more than 0.5 m/s. The first direct turbulence measurements with an autonomous Vertical Microstructure Profiler in the Samoan Passage revealed 1000 to 10,000 times stronger turbulence than oceanographic background levels. Heat-budget derived estimates of turbulent mixing levels were 2 to 6 times higher than area-averaged mixing levels in the Samoan Passage, pointing to the importance of mixing concentrated at so-called hot-spots. These mixing hot-spots are located downstream of the sills, where the flow, likely hydraulically controlled, accelerates, and hydraulic jumps with the highest mixing levels in the region were observed.&lt;/p></description></item><item><title>The mid-depth circulation of the Nordic Seas derived from profiling float observations</title><link>https://gunnarvoet.github.io/publication/journal-article/nordic-seas-circulation/</link><pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/publication/journal-article/nordic-seas-circulation/</guid><description/></item><item><title>Entrainment in the Denmark Strait overflow plume by meso-scale eddies</title><link>https://gunnarvoet.github.io/publication/journal-article/denmark-strait-entrainment/</link><pubDate>Mon, 01 Mar 2010 00:00:00 +0000</pubDate><guid>https://gunnarvoet.github.io/publication/journal-article/denmark-strait-entrainment/</guid><description/></item></channel></rss>
