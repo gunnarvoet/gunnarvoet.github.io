@@ -1,61 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Gunnar Voet</title><link>https://gunnarvoet.net/post/</link><atom:link href="https://gunnarvoet.net/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 Gunnar Voet</copyright><lastBuildDate>Thu, 22 Jun 2023 13:19:37 -0700</lastBuildDate><image><url>https://gunnarvoet.net/images/icon_hu2368079832697477974.png</url><title>Posts</title><link>https://gunnarvoet.net/post/</link></image><item><title>Publication Management with Zotero</title><link>https://gunnarvoet.net/post/zotero/</link><pubDate>Thu, 22 Jun 2023 13:19:37 -0700</pubDate><guid>https://gunnarvoet.net/post/zotero/</guid><description>&lt;!-- Advantages of using a virtual environment: -->
-&lt;!-- Isolation: A virtual environment provides an isolated space where you can install packages and dependencies without affecting your system Python or other projects. This means you can experiment with different packages and versions without worrying about conflicts or unintended consequences. -->
-&lt;!-- Reproducibility: By using a virtual environment, you can easily recreate the exact same environment on another machine or for a different project. This is especially useful when collaborating with others or when sharing your code. -->
-&lt;!-- Package management: With virtual environments, you can easily manage packages and dependencies for each project separately. This means you can install different versions of the same package for different projects, without worrying about conflicts or compatibility issues. -->
-&lt;!-- Consistency: By using a virtual environment, you can ensure that your project dependencies are consistent and up to date. This makes it easier to maintain your code and avoid unexpected errors or bugs. -->
-&lt;!-- Easy setup: Setting up a virtual environment is a straightforward process and can be done quickly with a few simple commands. This means you can get started on your project right away without spending time setting up your environment. -->
-&lt;p>Anyone working in scientific research reads and eventually writes
-&lt;a href="https://gunnarvoet.net/publication/">papers&lt;/a>. Quickly, one accumulates a bunch of journal articles in pdf format and the need for some kind of literature database arises.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Gunnar Voet</title><link>https://gunnarvoet.net/post/</link><atom:link href="https://gunnarvoet.net/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026 Gunnar Voet</copyright><lastBuildDate>Thu, 22 Jun 2023 13:19:37 -0700</lastBuildDate><image><url>https://gunnarvoet.net/images/icon_hu_7e39d3c86843c3c8.png</url><title>Posts</title><link>https://gunnarvoet.net/post/</link></image><item><title>Publication Management with Zotero</title><link>https://gunnarvoet.net/post/zotero/</link><pubDate>Thu, 22 Jun 2023 13:19:37 -0700</pubDate><guid>https://gunnarvoet.net/post/zotero/</guid><description>&lt;!-- Advantages of using a virtual environment: --&gt;
+&lt;!-- Isolation: A virtual environment provides an isolated space where you can install packages and dependencies without affecting your system Python or other projects. This means you can experiment with different packages and versions without worrying about conflicts or unintended consequences. --&gt;
+&lt;!-- Reproducibility: By using a virtual environment, you can easily recreate the exact same environment on another machine or for a different project. This is especially useful when collaborating with others or when sharing your code. --&gt;
+&lt;!-- Package management: With virtual environments, you can easily manage packages and dependencies for each project separately. This means you can install different versions of the same package for different projects, without worrying about conflicts or compatibility issues. --&gt;
+&lt;!-- Consistency: By using a virtual environment, you can ensure that your project dependencies are consistent and up to date. This makes it easier to maintain your code and avoid unexpected errors or bugs. --&gt;
+&lt;!-- Easy setup: Setting up a virtual environment is a straightforward process and can be done quickly with a few simple commands. This means you can get started on your project right away without spending time setting up your environment. --&gt;
+&lt;p&gt;Anyone working in scientific research reads and eventually writes
+&lt;a href="https://gunnarvoet.net/publication/"&gt;papers&lt;/a&gt;. Quickly, one accumulates a bunch of journal articles in pdf format and the need for some kind of literature database arises.
 After many years of using
-&lt;a href="https://bibdesk.sourceforge.io/manual/" target="_blank" rel="noopener">BibDesk&lt;/a> I recently switched to
-&lt;a href="https://www.zotero.org/" target="_blank" rel="noopener">Zotero&lt;/a> and have been quite happy so far with my new workflow.
-BibDesk is still an excellent tool and I only stumbled upon Zotero when I was looking for a bibliography management system that easily syncs between macos and Linux operating systems.&lt;/p>
-&lt;p>In the following, I describe how I set up Zotero to quite efficiently fulfill my needs for filing, referencing, and reading journal articles and books.
+&lt;a href="https://bibdesk.sourceforge.io/manual/" target="_blank" rel="noopener"&gt;BibDesk&lt;/a&gt; I recently switched to
+&lt;a href="https://www.zotero.org/" target="_blank" rel="noopener"&gt;Zotero&lt;/a&gt; and have been quite happy so far with my new workflow.
+BibDesk is still an excellent tool and I only stumbled upon Zotero when I was looking for a bibliography management system that easily syncs between macos and Linux operating systems.&lt;/p&gt;
+&lt;p&gt;In the following, I describe how I set up Zotero to quite efficiently fulfill my needs for filing, referencing, and reading journal articles and books.
 The setup also syncs my literature database between individual computers (and operating systems!).
 This writeup is probably not overly interesting unless you write papers in
-&lt;a href="https://www.latex-project.org/" target="_blank" rel="noopener">LaTeX&lt;/a> with the help of the
-&lt;a href="https://www.bibtex.org/" target="_blank" rel="noopener">BibTeX&lt;/a> bibliography tool. There are other guides out there that talk about, for example, how to integrate Zotero with your favorite Word processor.&lt;/p>
-&lt;p>Zotero is open source software and can be installed via
-&lt;a href="https://www.zotero.org/download/" target="_blank" rel="noopener">direct download&lt;/a> or using the software manager of your choice and/or operating system. Make sure to also install the browser connector in your web browser, also available from the download page. It provides a button in your web browser that allows for quickly (one click is all that&amp;rsquo;s usually needed!) adding a journal article, including the pdf file, to your Zotero database.&lt;/p>
-&lt;p>The
-&lt;a href="http://zotfile.com/" target="_blank" rel="noopener">ZotFile&lt;/a> and
-&lt;a href="https://retorque.re/zotero-better-bibtex/" target="_blank" rel="noopener">Better BibTex&lt;/a> plugins are key to my workflow.
+&lt;a href="https://www.latex-project.org/" target="_blank" rel="noopener"&gt;LaTeX&lt;/a&gt; with the help of the
+&lt;a href="https://www.bibtex.org/" target="_blank" rel="noopener"&gt;BibTeX&lt;/a&gt; bibliography tool. There are other guides out there that talk about, for example, how to integrate Zotero with your favorite Word processor.&lt;/p&gt;
+&lt;p&gt;Zotero is open source software and can be installed via
+&lt;a href="https://www.zotero.org/download/" target="_blank" rel="noopener"&gt;direct download&lt;/a&gt; or using the software manager of your choice and/or operating system. Make sure to also install the browser connector in your web browser, also available from the download page. It provides a button in your web browser that allows for quickly (one click is all that&amp;rsquo;s usually needed!) adding a journal article, including the pdf file, to your Zotero database.&lt;/p&gt;
+&lt;p&gt;The
+&lt;a href="http://zotfile.com/" target="_blank" rel="noopener"&gt;ZotFile&lt;/a&gt; and
+&lt;a href="https://retorque.re/zotero-better-bibtex/" target="_blank" rel="noopener"&gt;Better BibTex&lt;/a&gt; plugins are key to my workflow.
 ZotFile helps with automatically renaming and filing pdf files.
 It also allows for keeping the pdf file collection outside the Zotero database, thereby allowing for syncing using the file syncing software of your choice and avoiding paying for the Zotero sync service that charges for databases larger than 300MB.
 If you don&amp;rsquo;t mind paying a bit for their service you can of course simply use Zotero&amp;rsquo;s online storage and thereby support the nonprofit
-&lt;a href="https://digitalscholar.org/" target="_blank" rel="noopener">Corporation for Digital Scholarship&lt;/a> that develops and runs Zotero.
+&lt;a href="https://digitalscholar.org/" target="_blank" rel="noopener"&gt;Corporation for Digital Scholarship&lt;/a&gt; that develops and runs Zotero.
 I prefer to have my pdfs outside the Zotero database just in case I ever want to change to a different system.
 I use the open source tool
-&lt;a href="https://syncthing.net/" target="_blank" rel="noopener">Syncthing&lt;/a> to sync my paper collection with my office server but services like Dropbox or Google Drive should work equally well.
+&lt;a href="https://syncthing.net/" target="_blank" rel="noopener"&gt;Syncthing&lt;/a&gt; to sync my paper collection with my office server but services like Dropbox or Google Drive should work equally well.
 Here is how I set ZotFile to save new pdf files to a specific directory (and subsequently have them sorted into one folder per author name).
-&lt;img src="https://gunnarvoet.net/post/zotero/zotfile-general-settings.png" alt="png">
+&lt;img src="https://gunnarvoet.net/post/zotero/zotfile-general-settings.png" alt="png"&gt;
 The pdf files can be renamed to your liking using various patterns. Here is how I rename to first author / year / title which I find a nice format for when I share the pdf file with colleagues:
-&lt;img src="https://gunnarvoet.net/post/zotero/zotfile-renaming-rules.png" alt="png">
+&lt;img src="https://gunnarvoet.net/post/zotero/zotfile-renaming-rules.png" alt="png"&gt;
 If you use ZotFile to store pdfs outside the Zotero database make sure to disable Zotero file syncing:
-&lt;img src="https://gunnarvoet.net/post/zotero/zotero-sync-settings.png" alt="png">&lt;/p>
-&lt;p>The Better BibTex plugin allows for automatic generation of BibTex citation keys and automatic export of the whole database (or subsets thereof) to .bib files.
-Here are my settings for generating citation keys that follow the pattern &lt;em>author1yy&lt;/em>, &lt;em>author1author2yy&lt;/em>, and &lt;em>author1etalyy&lt;/em> depending on the number of authors on the paper.
-&lt;img src="https://gunnarvoet.net/post/zotero/betterbibtex-citation-keys.png" alt="png">
-To export the database to bibtex format, right click it in the left side bar (either your whole Library or only a Collection), choose &lt;em>Export Library&lt;/em>, and in the following dialogue select Better BibTex and check the &lt;em>Keep updated&lt;/em> and &lt;em>Background export&lt;/em> options.
+&lt;img src="https://gunnarvoet.net/post/zotero/zotero-sync-settings.png" alt="png"&gt;&lt;/p&gt;
+&lt;p&gt;The Better BibTex plugin allows for automatic generation of BibTex citation keys and automatic export of the whole database (or subsets thereof) to .bib files.
+Here are my settings for generating citation keys that follow the pattern &lt;em&gt;author1yy&lt;/em&gt;, &lt;em&gt;author1author2yy&lt;/em&gt;, and &lt;em&gt;author1etalyy&lt;/em&gt; depending on the number of authors on the paper.
+&lt;img src="https://gunnarvoet.net/post/zotero/betterbibtex-citation-keys.png" alt="png"&gt;
+To export the database to bibtex format, right click it in the left side bar (either your whole Library or only a Collection), choose &lt;em&gt;Export Library&lt;/em&gt;, and in the following dialogue select Better BibTex and check the &lt;em&gt;Keep updated&lt;/em&gt; and &lt;em&gt;Background export&lt;/em&gt; options.
 Now, whenever new entries are added to your Zotero database, they will also be added to the corresponding .bib database.
-The &lt;em>Automatic export&lt;/em> tab of the Better BibTex settings lets you adjust automatic exports set up this way.&lt;/p>
-&lt;p>If you are migrating to Zotero from BibDesk, the
-&lt;a href="https://github.com/edsu/bibdesk2zotero" target="_blank" rel="noopener">bibdesk2zotero&lt;/a> tool may be very helpful in preserving your already existing pdf database along with your existing bibtex database.
-Run the following command in your terminal and the newly generated .bib file should be ready for importing to Zotero with working pdf file links:&lt;/p>
-&lt;pre>&lt;code class="language-shell">bibdesk2zotero citations.bib /path/to/pdf/files/ &amp;gt; new-citations.bib
-&lt;/code>&lt;/pre>
-&lt;p>One feature of Zotero that I really like is the ability of adding new entries (including downloading the corresponding pdf of a paper) by providing just a doi. Simply copy the doi into the magic wand field (button on the top toolbar) and - et voilà! - the publication has been added to your database and you can start reading the paper right away.&lt;/p></description></item><item><title>watchmagic</title><link>https://gunnarvoet.net/post/watchmagic/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/watchmagic/</guid><description>&lt;p>
-&lt;a href="https://jupyter.org/" target="_blank" rel="noopener">Jupyter notebooks&lt;/a> are a great tool for explorative data analysis. However, they tend to get a little messy as a project grows in size and I have gotten into the habit of moving most of my code into external packages which I then import into a notebook. This way, I can still keep figures and notes in the notebook while keeping the analysis code modular and being able to edit it in an external editor. Using IPython&amp;rsquo;s &lt;code>%autoreload&lt;/code> magic, the external code can automatically be udpated inside the notebook every time a cell is re-evaluated. Awesome! The only slightly annoying part of this workflow is having to jump back and forth between editor and notebook every time the code has been changed, just to re-evaluate a cell.&lt;/p>
-&lt;p>Meet
-&lt;a href="https://github.com/gunnarvoet/watchmagic" target="_blank" rel="noopener">watchmagic&lt;/a>. It adds the &lt;code>%%watch&lt;/code> magic command to IPython. If added to the top of a cell, &lt;code>%%watch&lt;/code> will observe a given directory and re-evaluate the cell on file changes. This way, I only have to save my progress in the editor and can watch the notebook update by itself whenever I change a file. Under the hood,
-&lt;a href="https://github.com/gunnarvoet/watchmagic" target="_blank" rel="noopener">watchmagic&lt;/a> leverages the
-&lt;a href="https://pythonhosted.org/watchdog/" target="_blank" rel="noopener">watchdog&lt;/a> package.&lt;/p>
-&lt;p>Installation of
-&lt;a href="https://github.com/gunnarvoet/watchmagic" target="_blank" rel="noopener">watchmagic&lt;/a> is as simple as&lt;/p>
-&lt;pre>&lt;code class="language-shell">pip install watchmagic
-&lt;/code>&lt;/pre>
-&lt;p>A very basic example of displaying a plot in the notebook with analysis code development in the external file &lt;code>science_plots.py&lt;/code> may look like this:&lt;/p>
-&lt;pre>&lt;code class="language-python"># import external package with analysis code
+The &lt;em&gt;Automatic export&lt;/em&gt; tab of the Better BibTex settings lets you adjust automatic exports set up this way.&lt;/p&gt;
+&lt;p&gt;If you are migrating to Zotero from BibDesk, the
+&lt;a href="https://github.com/edsu/bibdesk2zotero" target="_blank" rel="noopener"&gt;bibdesk2zotero&lt;/a&gt; tool may be very helpful in preserving your already existing pdf database along with your existing bibtex database.
+Run the following command in your terminal and the newly generated .bib file should be ready for importing to Zotero with working pdf file links:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-shell"&gt;bibdesk2zotero citations.bib /path/to/pdf/files/ &amp;gt; new-citations.bib
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;One feature of Zotero that I really like is the ability of adding new entries (including downloading the corresponding pdf of a paper) by providing just a doi. Simply copy the doi into the magic wand field (button on the top toolbar) and - et voilà! - the publication has been added to your database and you can start reading the paper right away.&lt;/p&gt;</description></item><item><title>watchmagic</title><link>https://gunnarvoet.net/post/watchmagic/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/watchmagic/</guid><description>&lt;p&gt;
+&lt;a href="https://jupyter.org/" target="_blank" rel="noopener"&gt;Jupyter notebooks&lt;/a&gt; are a great tool for explorative data analysis. However, they tend to get a little messy as a project grows in size and I have gotten into the habit of moving most of my code into external packages which I then import into a notebook. This way, I can still keep figures and notes in the notebook while keeping the analysis code modular and being able to edit it in an external editor. Using IPython&amp;rsquo;s &lt;code&gt;%autoreload&lt;/code&gt; magic, the external code can automatically be udpated inside the notebook every time a cell is re-evaluated. Awesome! The only slightly annoying part of this workflow is having to jump back and forth between editor and notebook every time the code has been changed, just to re-evaluate a cell.&lt;/p&gt;
+&lt;p&gt;Meet
+&lt;a href="https://github.com/gunnarvoet/watchmagic" target="_blank" rel="noopener"&gt;watchmagic&lt;/a&gt;. It adds the &lt;code&gt;%%watch&lt;/code&gt; magic command to IPython. If added to the top of a cell, &lt;code&gt;%%watch&lt;/code&gt; will observe a given directory and re-evaluate the cell on file changes. This way, I only have to save my progress in the editor and can watch the notebook update by itself whenever I change a file. Under the hood,
+&lt;a href="https://github.com/gunnarvoet/watchmagic" target="_blank" rel="noopener"&gt;watchmagic&lt;/a&gt; leverages the
+&lt;a href="https://pythonhosted.org/watchdog/" target="_blank" rel="noopener"&gt;watchdog&lt;/a&gt; package.&lt;/p&gt;
+&lt;p&gt;Installation of
+&lt;a href="https://github.com/gunnarvoet/watchmagic" target="_blank" rel="noopener"&gt;watchmagic&lt;/a&gt; is as simple as&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-shell"&gt;pip install watchmagic
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A very basic example of displaying a plot in the notebook with analysis code development in the external file &lt;code&gt;science_plots.py&lt;/code&gt; may look like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-python"&gt;# import external package with analysis code
 import science_plots
 # load autoreload magic
 %load_ext autoreload
@@ -63,17 +63,17 @@ import science_plots
 %autoreload 2
 # load watch magic
 %load_ext watchmagic
-&lt;/code>&lt;/pre>
-&lt;pre>&lt;code class="language-python">%%watch --patterns *.py
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class="language-python"&gt;%%watch --patterns *.py
 # call external code
 science_plots.overview_plot()
-&lt;/code>&lt;/pre>
-&lt;p>After editing &lt;code>science_plots.py&lt;/code> and saving it, the plot will be updated:&lt;/p>
-&lt;pre>&lt;code class="language-shell">watch: ./science_plots.py has been modified
-&lt;/code>&lt;/pre>
-&lt;p>&lt;img src="https://gunnarvoet.net/post/watchmagic/Untitled_1_1.png" alt="png">&lt;/p>
-&lt;p>By default, &lt;code>%%watch&lt;/code> will look for changes in the current directory. A different directory can be supplied via the &lt;code>--path&lt;/code> command line option. In the example above the &lt;code>--patterns&lt;/code> command line option is used to only look for changes in &lt;code>*.py&lt;/code> files. The following command line options are available:&lt;/p>
-&lt;pre>&lt;code class="language-shell">-p PATH, --path PATH provides the PATH to watch for file changes. If
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After editing &lt;code&gt;science_plots.py&lt;/code&gt; and saving it, the plot will be updated:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-shell"&gt;watch: ./science_plots.py has been modified
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/post/watchmagic/Untitled_1_1.png" alt="png"&gt;&lt;/p&gt;
+&lt;p&gt;By default, &lt;code&gt;%%watch&lt;/code&gt; will look for changes in the current directory. A different directory can be supplied via the &lt;code&gt;--path&lt;/code&gt; command line option. In the example above the &lt;code&gt;--patterns&lt;/code&gt; command line option is used to only look for changes in &lt;code&gt;*.py&lt;/code&gt; files. The following command line options are available:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-shell"&gt;-p PATH, --path PATH provides the PATH to watch for file changes. If
 not provided, the current directory will be
 watched.
 -r, --recursive include subdirectories recursively when
@@ -86,240 +86,240 @@ look for files with these PATTERNS.
 --ignore &amp;lt;[IGNORE_PATTERNS [IGNORE_PATTERNS ...]]&amp;gt;
 ignore files containing IGNORE_PATTERNS when
 watching for file changes.
-&lt;/code>&lt;/pre>
-&lt;p>Defaults for a few parameters can be set in the
-&lt;a href="https://ipython.readthedocs.io/en/stable/config/intro.html#setting-configurable-options" target="_blank" rel="noopener">.ipython_config.py&lt;/a> file by adding any of the following lines:&lt;/p>
-&lt;pre>&lt;code class="language-python">#---------------------------------------------------------------
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Defaults for a few parameters can be set in the
+&lt;a href="https://ipython.readthedocs.io/en/stable/config/intro.html#setting-configurable-options" target="_blank" rel="noopener"&gt;.ipython_config.py&lt;/a&gt; file by adding any of the following lines:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-python"&gt;#---------------------------------------------------------------
 # WatchMagics configuration
 #---------------------------------------------------------------
 c.WatchMagics.default_patterns = ['*.py']
 c.WatchMagics.default_ignore_patterns = ['*.ipynb']
 c.WatchMagics.default_case_sensitive = False
 c.WatchMagics.default_ignore_directories = True
-&lt;/code>&lt;/pre>
+&lt;/code&gt;&lt;/pre&gt;
 &lt;!--
-&lt;video controls >
-&lt;source src="watchmagic_example.mp4" type="video/mp4">
-&lt;/video> --></description></item><item><title>BLT Test Moorings Recovered</title><link>https://gunnarvoet.net/post/blt-pilot-recovery/</link><pubDate>Wed, 06 Nov 2019 20:23:56 -0800</pubDate><guid>https://gunnarvoet.net/post/blt-pilot-recovery/</guid><description>&lt;p>Earlier this year in September we deployed two moorings in our backyard in the San Diego Trough. The goal of the mooring deployments was twofold: First, the BLT team wanted to practice deploying and recovering a mooring system we are borrowing from our colleague Hans van Haren from
-&lt;a href="https://www.nioz.nl" target="_blank" rel="noopener">NIOZ&lt;/a> in the Netherlands. The NIOZ mooring sports a large number of in-house-built high-precision temperature sensors with their clocks synched via an inductive pulse. Their measurements provide information on ocean stratification at high frequencies and high vertical resolution and can be used to study turbulence. Second, we wanted to test a new design for a MAVS mooring. MAVS are acoustic travel time current meters that, paired with high precision thermistors, can be used to directly measure buoyancy fluxes. The test deployment of the MAVS will tell us whether the mooring is designed stable enough to allow for the high precision measurements needed to directly observe buoyancy fluxes. Eventually, both of these mooring types will be deployed during the main experimental phase of BLT in the Rockall Trough in summer 2020.&lt;/p>
-&lt;p>Today, we successfully recovered both moorings and brought all instruments safely back on board. The weather conditions offshore were perfect for smooth mooring recoveries from the R/V Sproul, one of the smaller ships of the research fleet based in San Diego. Data analysis in the upcoming days will tell us how the moorings performed and whether adjustments are needed before the moorings will be deployed in the Rockall Trough. An exciting byproduct of the test deployment will be information on near bottom flow conditions, stratification, turbulence and buoyancy fluxes in the San Diego Trough, a region so close to Scripps Institution of Oceanography and yet not very well explored.&lt;/p>
-&lt;p>
-&lt;figure id="figure-mooring-locations-in-the-san-diego-trough">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/final_mooring_locations.png" data-caption="Mooring locations in the San Diego Trough.">
-&lt;img src="https://gunnarvoet.net/img/blt-pilot/final_mooring_locations.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;video controls &gt;
+&lt;source src="watchmagic_example.mp4" type="video/mp4"&gt;
+&lt;/video&gt; --&gt;</description></item><item><title>BLT Test Moorings Recovered</title><link>https://gunnarvoet.net/post/blt-pilot-recovery/</link><pubDate>Wed, 06 Nov 2019 20:23:56 -0800</pubDate><guid>https://gunnarvoet.net/post/blt-pilot-recovery/</guid><description>&lt;p&gt;Earlier this year in September we deployed two moorings in our backyard in the San Diego Trough. The goal of the mooring deployments was twofold: First, the BLT team wanted to practice deploying and recovering a mooring system we are borrowing from our colleague Hans van Haren from
+&lt;a href="https://www.nioz.nl" target="_blank" rel="noopener"&gt;NIOZ&lt;/a&gt; in the Netherlands. The NIOZ mooring sports a large number of in-house-built high-precision temperature sensors with their clocks synched via an inductive pulse. Their measurements provide information on ocean stratification at high frequencies and high vertical resolution and can be used to study turbulence. Second, we wanted to test a new design for a MAVS mooring. MAVS are acoustic travel time current meters that, paired with high precision thermistors, can be used to directly measure buoyancy fluxes. The test deployment of the MAVS will tell us whether the mooring is designed stable enough to allow for the high precision measurements needed to directly observe buoyancy fluxes. Eventually, both of these mooring types will be deployed during the main experimental phase of BLT in the Rockall Trough in summer 2020.&lt;/p&gt;
+&lt;p&gt;Today, we successfully recovered both moorings and brought all instruments safely back on board. The weather conditions offshore were perfect for smooth mooring recoveries from the R/V Sproul, one of the smaller ships of the research fleet based in San Diego. Data analysis in the upcoming days will tell us how the moorings performed and whether adjustments are needed before the moorings will be deployed in the Rockall Trough. An exciting byproduct of the test deployment will be information on near bottom flow conditions, stratification, turbulence and buoyancy fluxes in the San Diego Trough, a region so close to Scripps Institution of Oceanography and yet not very well explored.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure id="figure-mooring-locations-in-the-san-diego-trough"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/final_mooring_locations.png" data-caption="Mooring locations in the San Diego Trough."&gt;
+&lt;img src="https://gunnarvoet.net/img/blt-pilot/final_mooring_locations.png" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Mooring locations in the San Diego Trough.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-spencer-and-jeremiah-getting-the-ctd-ready">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/ctd.jpg" data-caption="Spencer and Jeremiah getting the CTD ready.">
-&lt;img src="https://gunnarvoet.net/img/blt-pilot/ctd.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-spencer-and-jeremiah-getting-the-ctd-ready"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/ctd.jpg" data-caption="Spencer and Jeremiah getting the CTD ready."&gt;
+&lt;img src="https://gunnarvoet.net/img/blt-pilot/ctd.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Spencer and Jeremiah getting the CTD ready.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-spencer-pinging-on-a-mooring">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/spencer-release.jpg" data-caption="Spencer pinging on a mooring.">
-&lt;img src="https://gunnarvoet.net/img/blt-pilot/spencer-release.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-spencer-pinging-on-a-mooring"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/spencer-release.jpg" data-caption="Spencer pinging on a mooring."&gt;
+&lt;img src="https://gunnarvoet.net/img/blt-pilot/spencer-release.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Spencer pinging on a mooring.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-spencer-and-brian">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/spencer-and-brian.jpg" data-caption="Spencer and Brian.">
-&lt;img src="https://gunnarvoet.net/img/blt-pilot/spencer-and-brian.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-spencer-and-brian"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/spencer-and-brian.jpg" data-caption="Spencer and Brian."&gt;
+&lt;img src="https://gunnarvoet.net/img/blt-pilot/spencer-and-brian.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Spencer and Brian.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-bethan-and-brian-winding-the-thermistor-chain-onto-the-tse-winch">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/thermistors.jpg" data-caption="Bethan and Brian winding the thermistor chain onto the TSE winch.">
-&lt;img src="https://gunnarvoet.net/img/blt-pilot/thermistors.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-bethan-and-brian-winding-the-thermistor-chain-onto-the-tse-winch"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/thermistors.jpg" data-caption="Bethan and Brian winding the thermistor chain onto the TSE winch."&gt;
+&lt;img src="https://gunnarvoet.net/img/blt-pilot/thermistors.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Bethan and Brian winding the thermistor chain onto the TSE winch.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-the-whoi-team-inspecting-the-recovered-mavs-instruments">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/mavs.jpg" data-caption="The WHOI team inspecting the recovered MAVS instruments.">
-&lt;img src="https://gunnarvoet.net/img/blt-pilot/mavs.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-the-whoi-team-inspecting-the-recovered-mavs-instruments"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/mavs.jpg" data-caption="The WHOI team inspecting the recovered MAVS instruments."&gt;
+&lt;img src="https://gunnarvoet.net/img/blt-pilot/mavs.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 The WHOI team inspecting the recovered MAVS instruments.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-bethan-on-the-tse-winch">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/bethan.jpg" data-caption="Bethan on the TSE winch.">
-&lt;img src="https://gunnarvoet.net/img/blt-pilot/bethan.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-bethan-on-the-tse-winch"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/bethan.jpg" data-caption="Bethan on the TSE winch."&gt;
+&lt;img src="https://gunnarvoet.net/img/blt-pilot/bethan.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Bethan on the TSE winch.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-jay-preparing-dinner">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/jjay.jpg" data-caption="Jay preparing dinner.">
-&lt;img src="https://gunnarvoet.net/img/blt-pilot/jjay.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-jay-preparing-dinner"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/blt-pilot/jjay.jpg" data-caption="Jay preparing dinner."&gt;
+&lt;img src="https://gunnarvoet.net/img/blt-pilot/jjay.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Jay preparing dinner.
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item><item><title>A Step Beyond</title><link>https://gunnarvoet.net/post/a-step-beyond/</link><pubDate>Tue, 29 Oct 2019 22:07:26 -0700</pubDate><guid>https://gunnarvoet.net/post/a-step-beyond/</guid><description>&lt;p>Today I had the opportunity to participate in an unusual class setting: At
-&lt;a href="https://a-step-beyond.org/" target="_blank" rel="noopener">A Step Beyond&lt;/a> in Escondido, CA, I talked to 5th and 6th graders about some of the observational methods we use in physical oceanography. In between the lessons, the students, together with their dance teacher Roxanne Rojas de Blanco, came up with dance moves to transform what they had just learned into a choreography. With a lot of creative energy the students danced ships in stormy seas and subsurface moorings knocked over by strong currents. Many thanks to Roxanne and my colleague Larry Pratt from WHOI for organizing this workshop and to the National Science Foundation for financial support through our Samoan Passage research project!&lt;/p>
-&lt;figure id="figure-larry-pratt-explaining-the-origins-of-water-on-earth-to-the-class">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/post/a-step-beyond/larry_hu16581041085533202281.jpg" data-caption="Larry Pratt explaining the origins of water on earth to the class.">
-&lt;img data-src="https://gunnarvoet.net/post/a-step-beyond/larry_hu16581041085533202281.jpg" class="lazyload" alt="" width="3148" height="2159">
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;</description></item><item><title>A Step Beyond</title><link>https://gunnarvoet.net/post/a-step-beyond/</link><pubDate>Tue, 29 Oct 2019 22:07:26 -0700</pubDate><guid>https://gunnarvoet.net/post/a-step-beyond/</guid><description>&lt;p&gt;Today I had the opportunity to participate in an unusual class setting: At
+&lt;a href="https://a-step-beyond.org/" target="_blank" rel="noopener"&gt;A Step Beyond&lt;/a&gt; in Escondido, CA, I talked to 5th and 6th graders about some of the observational methods we use in physical oceanography. In between the lessons, the students, together with their dance teacher Roxanne Rojas de Blanco, came up with dance moves to transform what they had just learned into a choreography. With a lot of creative energy the students danced ships in stormy seas and subsurface moorings knocked over by strong currents. Many thanks to Roxanne and my colleague Larry Pratt from WHOI for organizing this workshop and to the National Science Foundation for financial support through our Samoan Passage research project!&lt;/p&gt;
+&lt;figure id="figure-larry-pratt-explaining-the-origins-of-water-on-earth-to-the-class"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/post/a-step-beyond/larry_hu_41a5a0dedc8df288.jpg" data-caption="Larry Pratt explaining the origins of water on earth to the class."&gt;
+&lt;img data-src="https://gunnarvoet.net/post/a-step-beyond/larry_hu_41a5a0dedc8df288.jpg" class="lazyload" alt="" width="3148" height="2159"&gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Larry Pratt explaining the origins of water on earth to the class.
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Research Cruise Iceland 2019</title><link>https://gunnarvoet.net/post/research-cruise-iceland-2019/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/research-cruise-iceland-2019/</guid><description>&lt;p>The goal of this cruise was to deploy three moorings in the Iceland Basin, the part of the North Atlantic south of Iceland. Weather conditions here can be rough which was one of the reasons for picking this region for NISKINe: Strong, changing winds force a strong near-inertial wave field in the ocean. Nevertheless, for our mooring deployment cruise we were hoping for calm conditions to get the moorings safely in the water. Except for a storm delaying our departure in Iceland we had calm and nice conditions and the moorings went in the water smoothly.&lt;/p>
-&lt;p>
-&lt;figure id="figure-leaving-iceland">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/leaving_iceland.jpg" data-caption="Leaving Iceland.">
-&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/leaving_iceland.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;</description></item><item><title>Research Cruise Iceland 2019</title><link>https://gunnarvoet.net/post/research-cruise-iceland-2019/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/research-cruise-iceland-2019/</guid><description>&lt;p&gt;The goal of this cruise was to deploy three moorings in the Iceland Basin, the part of the North Atlantic south of Iceland. Weather conditions here can be rough which was one of the reasons for picking this region for NISKINe: Strong, changing winds force a strong near-inertial wave field in the ocean. Nevertheless, for our mooring deployment cruise we were hoping for calm conditions to get the moorings safely in the water. Except for a storm delaying our departure in Iceland we had calm and nice conditions and the moorings went in the water smoothly.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure id="figure-leaving-iceland"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/leaving_iceland.jpg" data-caption="Leaving Iceland."&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/leaving_iceland.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Leaving Iceland.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-attaching-a-chipod-to-the-mooring-during-deployment">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/attaching_chipod.jpg" data-caption="Attaching a chipod to the mooring during deployment.">
-&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/attaching_chipod.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-attaching-a-chipod-to-the-mooring-during-deployment"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/attaching_chipod.jpg" data-caption="Attaching a chipod to the mooring during deployment."&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/attaching_chipod.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Attaching a chipod to the mooring during deployment.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-late-night-flowquest-programming-session">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/working_late.JPG" data-caption="Late night Flowquest programming session.">
-&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/working_late.JPG" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-late-night-flowquest-programming-session"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/working_late.JPG" data-caption="Late night Flowquest programming session."&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/working_late.JPG" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Late night Flowquest programming session.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-about-to-drop-the-last-anchor">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/final_mooring.JPG" data-caption="About to drop the last anchor.">
-&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/final_mooring.JPG" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-about-to-drop-the-last-anchor"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/final_mooring.JPG" data-caption="About to drop the last anchor."&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/final_mooring.JPG" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 About to drop the last anchor.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-the-science-team">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/group_photo.JPG" data-caption="The science team.">
-&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/group_photo.JPG" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-the-science-team"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/group_photo.JPG" data-caption="The science team."&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/group_photo.JPG" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 The science team.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-returning-to-iceland-in-much-calmer-weather-than-when-we-left">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/return.jpg" data-caption="Returning to Iceland in much calmer weather than when we left&amp;amp;hellip;">
-&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/return.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-returning-to-iceland-in-much-calmer-weather-than-when-we-left"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/return.jpg" data-caption="Returning to Iceland in much calmer weather than when we left&amp;amp;hellip;"&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/return.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Returning to Iceland in much calmer weather than when we left&amp;hellip;
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-the-old-port-of-reykjavik-with-the-new-opera-and-icelands-research-vessel-arni-friðriksson">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/reykjavik.jpg" data-caption="The old port of Reykjavik with the new opera and Iceland&amp;amp;rsquo;s research vessel Árni Friðriksson.">
-&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/reykjavik.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-the-old-port-of-reykjavik-with-the-new-opera-and-icelands-research-vessel-arni-friðriksson"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/reykjavik.jpg" data-caption="The old port of Reykjavik with the new opera and Iceland&amp;amp;rsquo;s research vessel Árni Friðriksson."&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/reykjavik.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 The old port of Reykjavik with the new opera and Iceland&amp;rsquo;s research vessel Árni Friðriksson.
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-barbeque-on-the-dock">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/bbq.jpg" data-caption="Barbeque on the dock.">
-&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/bbq.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-barbeque-on-the-dock"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-iceland-2019/bbq.jpg" data-caption="Barbeque on the dock."&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-iceland-2019/bbq.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Barbeque on the dock.
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>Photos © Ally Kawamoto, Nicole Couto&lt;/p></description></item><item><title>Research Cruise Palau 2017</title><link>https://gunnarvoet.net/post/research-cruise-rr1708/</link><pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/research-cruise-rr1708/</guid><description>&lt;p>This was our second and last FLEAT (Flow Encountering Abrupt Topography) cruise and my first time as chief scientist. We successfully recovered five moorings in the vicinity of the island group Palau. In addition, we conducted towed mesurements over submarine ridge along the island of Yap to observe lee waves generated by the mean flow.&lt;/p>
-&lt;p>The towyos over different parts of the ridge, at different depths, showed strong vertical oscillations of isopycnals and enhanced levels of turbulent dissipation. At each site we repeated the measurements several times over a tidal cycle to be able to discern tidally and mean-flow-generated lee waves. The figure below shows measurements from the deepest lee wave survey north of Yap. Upper panels show stratification and isopycnals, the lower panels turbulent dissipation as measured with chipods.&lt;/p>
-&lt;figure id="figure-repeat-towyo-sections-over-yap-ridge-upper-panels-show-stratification-colors-and-density-contours-lower-panels-show-turbulent-dissipation">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/towyo3.png" data-caption="Repeat towyo sections over Yap Ridge. Upper panels show stratification (colors) and density (contours). Lower panels show turbulent dissipation.">
-&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/towyo3.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Photos © Ally Kawamoto, Nicole Couto&lt;/p&gt;</description></item><item><title>Research Cruise Palau 2017</title><link>https://gunnarvoet.net/post/research-cruise-rr1708/</link><pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/research-cruise-rr1708/</guid><description>&lt;p&gt;This was our second and last FLEAT (Flow Encountering Abrupt Topography) cruise and my first time as chief scientist. We successfully recovered five moorings in the vicinity of the island group Palau. In addition, we conducted towed mesurements over submarine ridge along the island of Yap to observe lee waves generated by the mean flow.&lt;/p&gt;
+&lt;p&gt;The towyos over different parts of the ridge, at different depths, showed strong vertical oscillations of isopycnals and enhanced levels of turbulent dissipation. At each site we repeated the measurements several times over a tidal cycle to be able to discern tidally and mean-flow-generated lee waves. The figure below shows measurements from the deepest lee wave survey north of Yap. Upper panels show stratification and isopycnals, the lower panels turbulent dissipation as measured with chipods.&lt;/p&gt;
+&lt;figure id="figure-repeat-towyo-sections-over-yap-ridge-upper-panels-show-stratification-colors-and-density-contours-lower-panels-show-turbulent-dissipation"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/towyo3.png" data-caption="Repeat towyo sections over Yap Ridge. Upper panels show stratification (colors) and density (contours). Lower panels show turbulent dissipation."&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/towyo3.png" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Repeat towyo sections over Yap Ridge. Upper panels show stratification (colors) and density (contours). Lower panels show turbulent dissipation.
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>For more details take a look at the
-&lt;a href="https://gunnarvoet.net/pdf/cruise_report_rr1708.pdf">cruise report&lt;/a>. Below are a few impressions from the cruise.&lt;/p>
-&lt;figure id="figure-rv-revelle-anchored-near-the-dock-in-palau">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/revelle_anchored.jpg" data-caption="R/V Revelle anchored near the dock in Palau">
-&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/revelle_anchored.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;For more details take a look at the
+&lt;a href="https://gunnarvoet.net/pdf/cruise_report_rr1708.pdf"&gt;cruise report&lt;/a&gt;. Below are a few impressions from the cruise.&lt;/p&gt;
+&lt;figure id="figure-rv-revelle-anchored-near-the-dock-in-palau"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/revelle_anchored.jpg" data-caption="R/V Revelle anchored near the dock in Palau"&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/revelle_anchored.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 R/V Revelle anchored near the dock in Palau
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-recovering-a-mclane-moored-profiler">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/mp_recovery.jpg" data-caption="Recovering a McLane Moored Profiler">
-&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/mp_recovery.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-recovering-a-mclane-moored-profiler"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/mp_recovery.jpg" data-caption="Recovering a McLane Moored Profiler"&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/mp_recovery.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Recovering a McLane Moored Profiler
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-barnacle-growth-on-the-mooring-line">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/barnacles.jpg" data-caption="Barnacle growth on the mooring line">
-&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/barnacles.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-barnacle-growth-on-the-mooring-line"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/barnacles.jpg" data-caption="Barnacle growth on the mooring line"&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/barnacles.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Barnacle growth on the mooring line
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-underway-to-the-next-mooring-site">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/steaming.jpg" data-caption="Underway to the next mooring site">
-&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/steaming.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-underway-to-the-next-mooring-site"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/steaming.jpg" data-caption="Underway to the next mooring site"&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/steaming.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 Underway to the next mooring site
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure id="figure-rv-revelle-near-velasco-reef">
-&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/flyover2.jpg" data-caption="R/V Revelle near Velasco Reef">
-&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/flyover2.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure id="figure-rv-revelle-near-velasco-reef"&gt;
+&lt;a data-fancybox="" href="https://gunnarvoet.net/img/cruise-rr1708/flyover2.jpg" data-caption="R/V Revelle near Velasco Reef"&gt;
+&lt;img src="https://gunnarvoet.net/img/cruise-rr1708/flyover2.jpg" alt="" &gt;
+&lt;/a&gt;
+&lt;figcaption&gt;
 R/V Revelle near Velasco Reef
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Photos © Kirstin Fitzmorris, Conrad Luecke, Derek Young, Mika Siegelman, Pat Collins&lt;/p></description></item><item><title>Research Cruise Palau 2016</title><link>https://gunnarvoet.net/post/research-cruise-rr1607/</link><pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/research-cruise-rr1607/</guid><description>&lt;p>We spent three weeks on R/V Roger Revelle to study flow-topography interactions in the vicinity of Palau in the tropical North Pacific.&lt;/p>
-&lt;p>This was my first time as a co-PI on a research cruise. Together with leading the nightwatch and responsibility for six mooring deployments and one mooring recovery this turned out to be a very busy cruise. It was very rewarding as we did a ton of interesting science though!&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-rr1607/mooring_deployment.jpg" alt="mooring deployment">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-rr1607/cellphone_island.jpg" alt="cellphone island">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-rr1607/rain.jpg" alt="rain">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-rr1607/revelle_blue.jpg" alt="revelle blue">&lt;/p>
-&lt;p>All photos © Tyler Hughen.&lt;/p></description></item><item><title>Research Cruise Beaufort Sea 2015</title><link>https://gunnarvoet.net/post/research-cruise-arctic-2015/</link><pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/research-cruise-arctic-2015/</guid><description>&lt;p>Late August and September 2015 in the Beaufort Sea on R/V Sikuliaq to study how upper ocean turbulent mixing will change under ice-free conditions in a warmer climate. Increased turbulent mixing may bring up warmer Atlantic water from beneath the cold surface layer causing a positive feedback on Arctic sea ice retreat.&lt;/p>
-&lt;p>We deployed a mooring in the central Beaufort Sea and carried out shipboard measurements with SWIMS and MMP.&lt;/p>
-&lt;p>For more info see our
-&lt;a href="https://scripps.ucsd.edu/projects/arcticmix/" target="_blank" rel="noopener">cruise blog&lt;/a>.&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-arctic-2015/sikuliaq.jpg" alt="r/v sikuliaq">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-arctic-2015/iceskin.jpg" alt="iceskin">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-arctic-2015/coffee.jpg" alt="coffee">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-arctic-2015/looking_back.jpg" alt="looking back">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-arctic-2015/workboat.jpg" alt="workboat">&lt;/p>
-&lt;p>Photos © Greg Wagner, Thomas Moore, Algot Peterson&lt;/p></description></item><item><title>Research Cruises Tasman Sea 2015</title><link>https://gunnarvoet.net/post/research-cruise-ttide-2015/</link><pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/research-cruise-ttide-2015/</guid><description>&lt;p>In January and March 2015 I went on two research cruises on R/V Roger Revelle to the Tasman Sea. I oversaw technical details, logistics, deployments and recoveries of the 15 TTIDE moorings, some of them full ocean depth down to 4000 m. The TTIDE project aimed at understanding the dissipation and reflection of internal tides impinging on a continental shelf. Working close to the Southern Ocean turned out to be quite challenging with strong winds and high seas for most of the time.&lt;/p>
-&lt;p>For more info see the
-&lt;a href="https://scripps.ucsd.edu/projects/ttide/" target="_blank" rel="noopener">project website&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-ttide/grappling_hook.jpg" alt="grappling hook">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-ttide/hopeful.jpg" alt="hopeful">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-ttide/lab.jpg" alt="lab">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-ttide/mp.jpg" alt="mp">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-ttide/storm.jpg" alt="storm">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-ttide/tasmania.jpg" alt="tasmania">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-ttide/team.jpg" alt="team">&lt;/p>
-&lt;p>&lt;img src="https://gunnarvoet.net/img/cruise-ttide/sky.jpg" alt="sky">&lt;/p>
-&lt;p>Photos © Thomas Moore&lt;/p></description></item></channel></rss>
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Photos © Kirstin Fitzmorris, Conrad Luecke, Derek Young, Mika Siegelman, Pat Collins&lt;/p&gt;</description></item><item><title>Research Cruise Palau 2016</title><link>https://gunnarvoet.net/post/research-cruise-rr1607/</link><pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/research-cruise-rr1607/</guid><description>&lt;p&gt;We spent three weeks on R/V Roger Revelle to study flow-topography interactions in the vicinity of Palau in the tropical North Pacific.&lt;/p&gt;
+&lt;p&gt;This was my first time as a co-PI on a research cruise. Together with leading the nightwatch and responsibility for six mooring deployments and one mooring recovery this turned out to be a very busy cruise. It was very rewarding as we did a ton of interesting science though!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-rr1607/mooring_deployment.jpg" alt="mooring deployment"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-rr1607/cellphone_island.jpg" alt="cellphone island"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-rr1607/rain.jpg" alt="rain"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-rr1607/revelle_blue.jpg" alt="revelle blue"&gt;&lt;/p&gt;
+&lt;p&gt;All photos © Tyler Hughen.&lt;/p&gt;</description></item><item><title>Research Cruise Beaufort Sea 2015</title><link>https://gunnarvoet.net/post/research-cruise-arctic-2015/</link><pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/research-cruise-arctic-2015/</guid><description>&lt;p&gt;Late August and September 2015 in the Beaufort Sea on R/V Sikuliaq to study how upper ocean turbulent mixing will change under ice-free conditions in a warmer climate. Increased turbulent mixing may bring up warmer Atlantic water from beneath the cold surface layer causing a positive feedback on Arctic sea ice retreat.&lt;/p&gt;
+&lt;p&gt;We deployed a mooring in the central Beaufort Sea and carried out shipboard measurements with SWIMS and MMP.&lt;/p&gt;
+&lt;p&gt;For more info see our
+&lt;a href="https://scripps.ucsd.edu/projects/arcticmix/" target="_blank" rel="noopener"&gt;cruise blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-arctic-2015/sikuliaq.jpg" alt="r/v sikuliaq"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-arctic-2015/iceskin.jpg" alt="iceskin"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-arctic-2015/coffee.jpg" alt="coffee"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-arctic-2015/looking_back.jpg" alt="looking back"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-arctic-2015/workboat.jpg" alt="workboat"&gt;&lt;/p&gt;
+&lt;p&gt;Photos © Greg Wagner, Thomas Moore, Algot Peterson&lt;/p&gt;</description></item><item><title>Research Cruises Tasman Sea 2015</title><link>https://gunnarvoet.net/post/research-cruise-ttide-2015/</link><pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate><guid>https://gunnarvoet.net/post/research-cruise-ttide-2015/</guid><description>&lt;p&gt;In January and March 2015 I went on two research cruises on R/V Roger Revelle to the Tasman Sea. I oversaw technical details, logistics, deployments and recoveries of the 15 TTIDE moorings, some of them full ocean depth down to 4000 m. The TTIDE project aimed at understanding the dissipation and reflection of internal tides impinging on a continental shelf. Working close to the Southern Ocean turned out to be quite challenging with strong winds and high seas for most of the time.&lt;/p&gt;
+&lt;p&gt;For more info see the
+&lt;a href="https://scripps.ucsd.edu/projects/ttide/" target="_blank" rel="noopener"&gt;project website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-ttide/grappling_hook.jpg" alt="grappling hook"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-ttide/hopeful.jpg" alt="hopeful"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-ttide/lab.jpg" alt="lab"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-ttide/mp.jpg" alt="mp"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-ttide/storm.jpg" alt="storm"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-ttide/tasmania.jpg" alt="tasmania"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-ttide/team.jpg" alt="team"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gunnarvoet.net/img/cruise-ttide/sky.jpg" alt="sky"&gt;&lt;/p&gt;
+&lt;p&gt;Photos © Thomas Moore&lt;/p&gt;</description></item></channel></rss>
