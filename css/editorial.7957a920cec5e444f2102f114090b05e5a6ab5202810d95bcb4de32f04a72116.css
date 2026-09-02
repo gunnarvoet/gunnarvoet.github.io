@@ -1,0 +1,1072 @@
+/* ============================================================
+   Editorial homepage prototype
+   Throwaway restyle in the manner of henriknorberg.com, grounded
+   in sea-going physical oceanography. Nothing here is inherited
+   from Bootstrap or Academic; the page owns its own shell.
+   ============================================================ */
+
+
+/* --- self-hosted webfonts -----------------------------------
+   Served from the theme's own static/fonts/, so the site makes no
+   request to fonts.googleapis.com. The paths are relative to this
+   stylesheet's published location (/css/), which keeps them correct
+   under any baseURL. Refresh the files with themes/editorial/fetch-fonts.sh.
+
+   Archivo is one variable file per subset carrying both axes; the
+   design leans on wdth, so the font-stretch range has to be declared
+   or the browser clamps every width to 100%. */
+
+@font-face {
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-display: swap;
+  src: url(../fonts/archivo-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-display: swap;
+  src: url(../fonts/archivo-latin-ext.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* IBM Plex Mono is not variable; 400 and 500 are separate files. The
+   latin-ext cut is here for the accented surnames in the bibliography. */
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/ibm-plex-mono-400-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/ibm-plex-mono-400-latin-ext.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/ibm-plex-mono-500-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/ibm-plex-mono-500-latin-ext.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+:root {
+  --paper:  #f2f0ea;   /* warm paper ground */
+  --ink:    #10171a;   /* near-black, faintly marine */
+  --line:   #a9a49b;   /* hairline rule */
+  --muted:  #55605f;   /* secondary text */
+  --abyss:  #0f2b33;   /* deep teal, used once, inverted */
+  --gutter: 34px;
+
+  /* Code. The ground is one step below the paper. A panel of its own
+     colour would turn the fourteen shell blocks in the uv post into a
+     stack of cards; one step below reads as quieter paper. The five
+     syntax hues are desaturated enough to sit on that ground. The
+     keyword teal is the site's own --abyss and the rest are warm
+     earths, which is what a warm paper takes. Everything not listed
+     below stays --ink, so a shell block still looks mostly like the
+     plain text it mostly is. */
+  --code-bg:      #eae7de;
+  --code-comment: var(--muted);   /* 5.3:1 on --code-bg; a lighter gray drops under 4.5 */
+  --code-key:     #0f2b33;
+  --code-name:    #2c5c66;
+  --code-string:  #7a5423;
+  --code-number:  #8f4526;
+  --code-var:     #6b4a5f;
+  --code-punct:   #5b6362;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Archivo, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+
+img { display: block; max-width: 100%; }
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+/* The header is sticky, so anchor targets have to clear it. */
+[id] { scroll-margin-top: 84px; }
+
+/* --- shared type roles ------------------------------------- */
+
+.label {                      /* uppercase utility face */
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  font-variation-settings: "wdth" 100;
+}
+
+.mono {                       /* numbers, coordinates, dates */
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  font-size: 12px;
+  letter-spacing: .01em;
+}
+
+.display {                    /* the condensed voice of the page */
+  margin: 0;
+  font-weight: 900;
+  font-variation-settings: "wdth" 70, "wght" 900;
+  text-transform: uppercase;
+  letter-spacing: -.035em;
+  line-height: .82;
+}
+
+.band {
+  border-bottom: 1px solid var(--line);
+  padding: 62px var(--gutter);
+}
+
+/* A band that runs straight into a grid must not draw its own bottom
+   rule. The grid's first row of cells draws one in the same place, and
+   the two hairlines stack into a 2px seam. This is the rule the project
+   and homepage templates were zeroing by hand with an inline style. */
+.band:has(+ .grid) { border-bottom: 0; }
+
+/* Same seam where two grids meet, which is a post that names a project
+   and then the neighbouring posts: the second grid's first row draws
+   the rule between them. */
+.grid:has(+ .grid) { border-bottom: 0; }
+
+.band-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 38px;
+}
+
+.band-head h2 {
+  margin: 0;
+  font-size: clamp(30px, 3.6vw, 54px);
+  font-weight: 900;
+  font-variation-settings: "wdth" 70, "wght" 900;
+  text-transform: uppercase;
+  letter-spacing: -.03em;
+  line-height: .9;
+}
+
+/* A band head's right-hand slot usually holds a mono counter, and where it
+   holds a link instead (gv.bib, the post archive, the tag index) nothing
+   distinguishes the two: the base rule strips anchors of color and
+   underline. Give it a hover. */
+.band-head a:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+/* --- header ------------------------------------------------ */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 var(--gutter);
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  font-size: 13px;
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.brand span { font-weight: 400; color: var(--muted); }
+
+.nav { display: flex; gap: 38px; }
+
+.nav a:hover { text-decoration: underline; text-underline-offset: 5px; }
+
+.menu {
+  display: none;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: 26px;
+  line-height: 1;
+  padding: 4px;
+  cursor: pointer;
+}
+
+/* --- hero -------------------------------------------------- */
+
+.hero {
+  position: relative;
+  min-height: 78vh;
+  overflow: hidden;
+  background: #6f8792;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 55%;
+  filter: saturate(.62) contrast(.92);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(0deg, rgba(16,23,26,.62), rgba(16,23,26,0) 62%),
+    linear-gradient(80deg, rgba(16,23,26,.34), rgba(16,23,26,0) 52%);
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  min-height: 78vh;
+  padding: 32px var(--gutter);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: var(--paper);
+}
+
+.hero h1 {
+  font-size: clamp(64px, 11.5vw, 190px);
+  max-width: 12ch;
+}
+
+/* A two-line headline of about twenty characters per line. The type
+   drops to roughly 70% of the slab size so each line still fits. */
+.hero h1.hero-wide {
+  font-size: clamp(44px, 8vw, 132px);
+  max-width: 22ch;
+}
+
+.hero-kicker {
+  margin-top: 26px;
+  /* Uppercase with tracking runs wider than the ch unit suggests; 66ch
+     wrapped the first line one word early. */
+  max-width: 92ch;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+
+/* --- station bar ------------------------------------------- */
+
+.station {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  min-height: 96px;
+  padding: 22px var(--gutter);
+  border-bottom: 1px solid var(--line);
+}
+
+.station .mono { color: var(--muted); }
+
+/* --- statement --------------------------------------------- */
+
+.statement {
+  display: grid;
+  grid-template-columns: 1.3fr .7fr;
+  gap: 72px;
+}
+
+.statement h2 {
+  margin: 0;
+  font-size: clamp(34px, 4.4vw, 70px);
+  font-weight: 900;
+  font-variation-settings: "wdth" 72, "wght" 900;
+  text-transform: uppercase;
+  letter-spacing: -.035em;
+  line-height: .92;
+  max-width: 18ch;
+}
+
+.statement-body p {
+  margin: 0 0 18px;
+  font-size: 17px;
+  line-height: 1.45;
+  max-width: 46ch;
+}
+
+.statement-body a { text-decoration: underline; text-underline-offset: 3px; }
+
+.interests {
+  margin: 26px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.interests li {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+/* --- projects grid: the signature ---------------------------
+   Full-bleed hairline cells that invert to abyss teal on hover
+   or focus. The grid is the page's one loud gesture.
+   ----------------------------------------------------------- */
+
+/* Row rules are drawn by the cells themselves, as a border-top, so a
+   row that is not full still gets a rule across its whole width. The
+   grid closes itself with the bottom rule for the same reason: with
+   nine projects in four columns the last row holds one cell, and a
+   border-bottom on the cell would stop the rule a quarter of the way
+   across and leave the band hanging open. */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid var(--line);
+}
+
+.cell {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  padding: 26px var(--gutter) 24px;
+  border-right: 1px solid var(--line);
+  border-top: 1px solid var(--line);
+  transition: background-color .18s ease, color .18s ease;
+}
+
+/* The project's own featured image fades in behind the cell on hover.
+   The scrim is weighted: heavy where the year, title and summary sit,
+   clearing toward the foot of the cell so the figure itself is legible.
+   It has to hold up over subjects as different as a white schematic and
+   a dark satellite map, and is what shows alone if a project has no
+   image. */
+.cell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  background-image:
+    linear-gradient(to bottom,
+      rgba(9, 28, 34, .88) 0%,
+      rgba(9, 28, 34, .84) 50%,
+      rgba(9, 28, 34, .30) 100%),
+    var(--shot, none);
+  background-size: cover;
+  background-position: center;
+  transition: opacity .22s ease;
+}
+
+.cell:hover::before,
+.cell:focus-visible::before { opacity: 1; }
+
+.cell:nth-child(4n) { border-right: 0; }
+
+.cell:hover, .cell:focus-visible {
+  background: var(--abyss);
+  color: var(--paper);
+  outline: none;
+}
+
+.cell:hover .cell-year, .cell:focus-visible .cell-year,
+.cell:hover .cell-sum,  .cell:focus-visible .cell-sum { color: rgba(242,240,234,.72); }
+
+.cell-year { color: var(--muted); }
+
+.cell h3 {
+  margin: 18px 0 12px;
+  font-size: 21px;
+  font-weight: 900;
+  font-variation-settings: "wdth" 76, "wght" 900;
+  text-transform: uppercase;
+  letter-spacing: -.015em;
+  line-height: 1.02;
+}
+
+.cell-sum {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+.cell-arrow { margin-top: auto; padding-top: 20px; font-size: 20px; }
+
+/* --- two-column prose bands (software / data) --------------- */
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid var(--line);
+}
+
+.split > * { padding: 62px var(--gutter); }
+
+.split > *:first-child { border-right: 1px solid var(--line); }
+
+.prose h3 {
+  margin: 26px 0 5px;
+  font-size: 17px;
+  font-weight: 900;
+  font-variation-settings: "wdth" 82, "wght" 800;
+  text-transform: uppercase;
+  letter-spacing: -.005em;
+}
+
+.prose h3:first-of-type { margin-top: 0; }
+
+.prose p { margin: 0 0 6px; font-size: 14.5px; line-height: 1.4; max-width: 48ch; }
+
+.prose a { text-decoration: underline; text-underline-offset: 3px; }
+
+.prose a:hover { background: var(--ink); color: var(--paper); text-decoration: none; }
+
+/* The reference language has no icons; text labels carry the links. */
+.prose i, .prose svg { display: none; }
+
+/* --- publications -------------------------------------------
+   A sticky year rail on the left turns the band's empty half
+   into a way to move through 15 years of papers.
+   ------------------------------------------------------------ */
+
+.pub-wrap {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.pub-index {
+  position: sticky;
+  top: 108px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.pub-index a { color: var(--muted); }
+
+.pub-index a:hover { color: var(--ink); }
+
+.pub-list { max-width: 74ch; }
+
+.pub-year {
+  margin: 34px 0 12px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--line);
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .04em;
+  color: var(--muted);
+}
+
+.pub-list .pub-year:first-child { margin-top: 0; }
+
+.pub { margin-bottom: 15px; }
+
+.pub-title {
+  display: block;
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 1.28;
+  max-width: 62ch;
+}
+
+a.pub-title:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.pub-meta {
+  margin-top: 2px;
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: var(--muted);
+  max-width: 68ch;
+}
+
+.pub-venue { font-style: italic; }
+
+.pub-venue::before { content: " \00b7 "; font-style: normal; }
+
+/* --- experience & posts as ruled ledgers -------------------- */
+
+.ledger { border-top: 1px solid var(--line); }
+
+.ledger .row {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 24px;
+  align-items: baseline;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+  transition: padding-left .18s ease;
+}
+
+a.row:hover { padding-left: 12px; }
+
+.ledger .when { color: var(--muted); }
+
+.ledger .what {
+  display: block;
+  font-size: 19px;
+  font-weight: 800;
+  font-variation-settings: "wdth" 80, "wght" 800;
+  text-transform: uppercase;
+  letter-spacing: -.01em;
+  line-height: 1.05;
+}
+
+.ledger .where {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+/* --- contact: the one inverted band ------------------------- */
+
+.contact {
+  background: var(--abyss);
+  color: var(--paper);
+  padding: 58px var(--gutter);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.contact h2 {
+  margin: 0;
+  font-size: clamp(38px, 5vw, 76px);
+  font-weight: 900;
+  font-variation-settings: "wdth" 70, "wght" 900;
+  text-transform: uppercase;
+  letter-spacing: -.04em;
+  line-height: .84;
+}
+
+.contact a { text-decoration: underline; text-underline-offset: 4px; }
+
+.contact .mono { color: rgba(242,240,234,.7); }
+
+.contact dl { margin: 0; }
+
+.contact dt { margin-bottom: 4px; color: rgba(242,240,234,.55); }
+
+.contact dd { margin: 0 0 18px; font-size: 15px; line-height: 1.35; }
+
+/* --- footer ------------------------------------------------- */
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  min-height: 72px;
+  padding: 22px var(--gutter);
+}
+
+.footer-links { display: flex; gap: 28px; flex-wrap: wrap; }
+
+.footer-links a:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+/* --- inner page head ----------------------------------------
+   The homepage opens on a photograph; an inner page opens on its
+   own title, set in the same condensed voice. The eyebrow row
+   reuses .band-head, so the label/mono pairing reads the same as
+   every section heading on the site.
+   ----------------------------------------------------------- */
+
+.page-head { padding-bottom: 46px; }
+
+.page-head .band-head { margin-bottom: 30px; }
+
+.page-title {
+  font-size: clamp(38px, 6.6vw, 104px);
+  max-width: 15ch;
+}
+
+.page-kicker {
+  margin: 28px 0 0;
+  max-width: 52ch;
+  font-size: clamp(17px, 1.5vw, 21px);
+  line-height: 1.32;
+  color: var(--muted);
+}
+
+.page-kicker a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.page-kicker a:hover { background: var(--ink); color: var(--paper); text-decoration: none; }
+
+.eyebrow a { text-decoration: underline; text-underline-offset: 4px; }
+.eyebrow a:hover { background: var(--ink); color: var(--paper); text-decoration: none; }
+
+/* --- paper head ---------------------------------------------
+   A paper title is a sentence, not a name, so it takes a smaller
+   cut of the display face than a project or post title does. The
+   station strip below it carries the DOI, which for a paper is
+   the same kind of coordinate the homepage strip carries for the
+   lab.
+   ----------------------------------------------------------- */
+
+.paper-title { font-size: clamp(27px, 3.4vw, 56px); max-width: 25ch; }
+
+.byline {
+  margin: 28px 0 0;
+  max-width: 62ch;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Nine underlined names in a row is a lot of rule. Keep them hairline
+   until the pointer picks one out. */
+.byline a {
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 3px;
+}
+
+.byline a:hover { background: var(--ink); color: var(--paper); text-decoration: none; }
+
+.venue {
+  margin: 9px 0 0;
+  max-width: 62ch;
+  font-size: 16px;
+  color: var(--muted);
+}
+
+.station .mono a { text-decoration: underline; text-underline-offset: 4px; }
+.station .mono a:hover { color: var(--ink); }
+
+.station-links { display: flex; flex-wrap: wrap; gap: 24px; }
+.station-links a { text-decoration: underline; text-underline-offset: 4px; }
+.station-links a:hover { background: var(--ink); color: var(--paper); text-decoration: none; }
+
+/* A station bar carrying a place rather than a row of actions: the homepage
+   affiliations, a post's cruise position. It is running metadata, and a rule
+   under every line of it reads as noise, so the affordance is hover alone.
+   The coordinates keep the muted-to-ink hover from .station .mono a above;
+   only the underline goes. */
+.station-place .label a,
+.station-place .mono a { text-decoration: none; }
+.station-place .label a:hover { background: var(--ink); color: var(--paper); }
+
+/* --- plates -------------------------------------------------
+   Figures that belong to the page rather than to a paragraph:
+   the featured image of a project or post. Full-bleed band. Only
+   an image too small to have been a band picture keeps a native
+   max-width from plate.html and sits centered on the paper.
+   ----------------------------------------------------------- */
+
+.plate {
+  margin: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.plate img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.plate-cap {
+  padding: 14px var(--gutter) 16px;
+  border-top: 1px solid var(--line);
+  max-width: 82ch;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.plate-cap a { text-decoration: underline; text-underline-offset: 3px; }
+
+/* --- longform body ------------------------------------------
+   The reading column. Wider measure and looser leading than the
+   .prose blocks on the homepage, which are captions by comparison.
+   Everything structural stays a hairline.
+   ----------------------------------------------------------- */
+
+/* The reading measure is set on the children rather than the container,
+   so a picture can run past the text to the band's right edge while the
+   prose stays left aligned at 66ch. */
+.longform { font-size: 17px; line-height: 1.6; }
+
+.longform > * { max-width: 66ch; }
+
+.longform > figure,
+.longform > p:has(> img:only-child) { max-width: none; }
+
+/* Running to the band edge suits a photograph. A plot does not: its own
+   axis labels and legend are sized for a figure a few inches across, so
+   at band width they read as oversized furniture. `narrow="true"` on the
+   figure shortcode pulls one back into the reading measure. */
+.longform > figure.narrow { max-width: 66ch; }
+
+.longform > :first-child { margin-top: 0; }
+.longform > :last-child  { margin-bottom: 0; }
+
+.longform p { margin: 0 0 1.15em; }
+
+.longform h2, .longform h3, .longform h4 {
+  margin: 2em 0 .6em;
+  font-weight: 900;
+  font-variation-settings: "wdth" 82, "wght" 900;
+  text-transform: uppercase;
+  letter-spacing: -.01em;
+  line-height: 1.05;
+}
+
+.longform h2 { font-size: 27px; }
+.longform h3 { font-size: 21px; }
+.longform h4 { font-size: 17px; }
+
+.longform a { text-decoration: underline; text-underline-offset: 3px; }
+.longform a:hover { background: var(--ink); color: var(--paper); text-decoration: none; }
+
+.longform ul, .longform ol { margin: 0 0 1.15em; padding-left: 1.2em; }
+.longform li { margin-bottom: .35em; }
+
+.longform blockquote {
+  margin: 1.6em 0;
+  padding-left: 22px;
+  border-left: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.longform hr {
+  margin: 2.4em 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+/* Never scale a picture past its own pixels: the figures in the posts
+   run from a 1367px group photo to a 6000px close-up. The height cap is
+   what keeps a run of cruise photographs readable, since the portrait
+   ones would otherwise stand two and a half screens tall each. */
+.longform img {
+  width: auto;
+  max-width: 100%;
+  max-height: 82vh;
+  height: auto;
+  margin: 1.8em 0 .6em;
+}
+
+.longform figure { margin: 2.4em 0; }
+.longform figure img { margin: 0; }
+
+.longform figcaption {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+/* Inline code sits inside a sentence set in Archivo. Plex Mono runs
+   small beside it at the same nominal size, hence .9em where a mono
+   face usually wants .86em.
+
+   It gets no tinted chip. The paragraph about uv.lock names five files
+   in six lines, and five grounds in one paragraph read as a ransom
+   note. The change of face already marks the token, and leaving the
+   ground alone keeps it as the one thing that means "a block you would
+   type". `word-break` stops a long path from pushing the measure open,
+   since a mono run gives a browser nowhere to break. */
+.longform code {
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  font-size: .9em;
+  word-break: break-word;
+}
+
+/* --- code blocks --------------------------------------------
+   Coloured at build time by partials/func/highlight.html, which
+   re-emits every fenced block through Chroma with class names. The
+   palette is in :root; the rules below only assign it.
+
+   Chroma wraps its <pre> in <div class="highlight">, so the block's
+   own margin and the 66ch measure land on that wrapper, while the
+   frame and the scroll go on the <pre> inside it. A fence with no
+   language never reaches Chroma and stays a bare <pre>, so both
+   selectors carry the frame.
+   ----------------------------------------------------------- */
+
+/* The block ends where the paragraph above it ends, and gets that for
+   free: `.longform > *` sets a 66ch measure, and the direct child here
+   is Chroma's wrapper, which inherits Archivo, so its `ch` is the same
+   `ch` the prose was measured in. This only holds because every fence
+   goes through Chroma, including the ones with no language on them
+   (see func/highlight.html). A bare <pre> would be measured in its own
+   mono face and come out a third narrower. */
+.longform .highlight { margin: 1.6em 0; }
+
+.longform pre {
+  margin: 1.6em 0;
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  padding: 16px 20px;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  background: var(--code-bg);
+  font-size: 13.5px;
+  line-height: 1.55;
+  tab-size: 4;
+}
+
+.longform .highlight pre { margin: 0; }
+
+/* Whatever marks inline code has to be undone here, or it would draw
+   a second ground on every line inside the block. */
+.longform pre code {
+  font-size: inherit;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+}
+
+/* Chroma puts a tabindex on the <pre> so a scrolling block can be
+   reached by keyboard. The browser's default ring does not belong on
+   this paper, so the focus is drawn as a rule. */
+.longform pre:focus-visible {
+  outline: none;
+  border-color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--ink);
+}
+
+.chroma .c,  .chroma .ch, .chroma .cm, .chroma .c1,
+.chroma .cs { color: var(--code-comment); font-style: italic; }
+.chroma .cp, .chroma .cpf { color: var(--code-comment); }
+
+.chroma .k,  .chroma .kc, .chroma .kd, .chroma .kn,
+.chroma .kp, .chroma .kr { color: var(--code-key); font-weight: 600; }
+.chroma .kt { color: var(--code-name); }
+
+.chroma .nb, .chroma .bp, .chroma .nf, .chroma .fm,
+.chroma .nc, .chroma .ne, .chroma .nn,
+.chroma .nd { color: var(--code-name); }
+.chroma .no { color: var(--code-number); }
+.chroma .na, .chroma .nt { color: var(--code-name); }
+
+.chroma .nv, .chroma .vc, .chroma .vg,
+.chroma .vi, .chroma .vm { color: var(--code-var); }
+
+.chroma .s,  .chroma .sa, .chroma .sb, .chroma .sc, .chroma .dl,
+.chroma .sd, .chroma .s2, .chroma .sh, .chroma .si, .chroma .sx,
+.chroma .sr, .chroma .s1, .chroma .ss { color: var(--code-string); }
+.chroma .se { color: var(--code-number); }
+
+.chroma .m,  .chroma .mb, .chroma .mf, .chroma .mh,
+.chroma .mi, .chroma .il, .chroma .mo { color: var(--code-number); }
+
+.chroma .o, .chroma .ow, .chroma .p { color: var(--code-punct); }
+
+.chroma .gd { color: var(--code-number); }
+.chroma .gi { color: var(--code-name); }
+.chroma .ge { font-style: italic; }
+.chroma .gs { font-weight: 600; }
+.chroma .gh, .chroma .gu { color: var(--code-key); font-weight: 600; }
+
+/* An unlexable token is Chroma telling you the fence has the wrong
+   language on it. Say so quietly instead of painting it red. */
+.chroma .err { color: var(--ink); text-decoration: underline wavy var(--code-number); }
+
+.longform table {
+  width: 100%;
+  margin: 1.8em 0;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.longform th, .longform td {
+  padding: 9px 14px 9px 0;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  font-variant-numeric: tabular-nums;
+}
+
+.longform th {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  border-bottom-color: var(--ink);
+}
+
+/* Math is typeset to MathML at build time by func/content.html, so it
+   inherits the body face and needs no stylesheet of its own. Only the
+   optical size and the block display of $$...$$ want setting. */
+
+.longform math { font-size: 1.04em; }
+
+.longform .katex:has(math[display="block"]) { display: block; }
+
+.longform math[display="block"] { margin: 1.5em 0; }
+
+/* --- page foot: where a page hands you on -------------------
+   Two cells of the same grid the homepage projects band uses, so
+   an inner page ends by putting you back where you entered it.
+   ----------------------------------------------------------- */
+
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-2 .cell:nth-child(4n) { border-right: 1px solid var(--line); }
+.grid-2 .cell:nth-child(2n) { border-right: 0; }
+
+/* The first and the most recent field program have only one neighbour.
+   That cell takes the whole width rather than leaving a ruled blank. */
+.grid-2 .cell:only-child { grid-column: 1 / -1; border-right: 0; }
+
+/* The blanks partials/gridfill.html emits to square off a last row that
+   is not full. They draw that row's rule and nothing else. */
+.grid-fill { border-top: 1px solid var(--line); }
+.grid-fill.f2 { display: none; }
+
+.cell-label { display: block; margin-bottom: 14px; color: var(--muted); }
+.cell:hover .cell-label, .cell:focus-visible .cell-label { color: rgba(242,240,234,.72); }
+
+/* --- responsive --------------------------------------------- */
+
+@media (max-width: 1100px) {
+  /* Seven nav items no longer clear the brand in the band just above the
+     burger breakpoint, and the brand is what gives: its role wraps to a
+     second line. Close the nav gap instead. */
+  .nav { gap: 26px; }
+  .grid { grid-template-columns: repeat(2, 1fr); }
+  .cell:nth-child(4n) { border-right: 1px solid var(--line); }
+  .cell:nth-child(2n) { border-right: 0; }
+  .grid-fill.f4 { display: none; }
+  .grid-fill.f2 { display: block; }
+}
+
+@media (max-width: 900px) {
+  :root { --gutter: 22px; }
+  .site-header { height: 70px; }
+  .nav { display: none; }
+  body.menu-open .nav {
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 18px;
+    padding: 22px var(--gutter);
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+  }
+  .menu { display: block; }
+  .statement, .split { grid-template-columns: 1fr; }
+  .split > *:first-child { border-right: 0; border-bottom: 1px solid var(--line); }
+  .statement { gap: 34px; }
+  .contact { grid-template-columns: 1fr; gap: 28px; }
+  .ledger .row { grid-template-columns: 1fr; gap: 4px; }
+  /* The rail stays sticky on narrow screens, as a full-bleed strip that
+     scrolls sideways. It has to leave the grid to do it: as a grid item
+     its containing block is its own row, which gives sticky nothing to
+     travel through. As a block child of .pub-wrap it tracks the list. */
+  .pub-wrap { display: block; }
+  .pub-index {
+    position: sticky;
+    top: 69px;                /* tucked under the 70px mobile header */
+    z-index: 10;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 17px;
+    margin: 0 calc(var(--gutter) * -1) 26px;
+    padding: 11px var(--gutter);
+    background: var(--paper);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+  .pub-index::-webkit-scrollbar { display: none; }
+  .pub-index a { flex: 0 0 auto; }
+  /* Year headings must clear the header and the rail, not just the header. */
+  .pub-year { scroll-margin-top: 122px; }
+}
+
+@media (max-width: 620px) {
+  .grid { grid-template-columns: 1fr; }
+  /* One column: every row is full, so neither set of blanks is needed. */
+  .grid-fill.f4, .grid-fill.f2 { display: none; }
+  .cell { border-right: 0 !important; min-height: 0; }
+  .hero h1 { font-size: clamp(46px, 14vw, 80px); }
+}
